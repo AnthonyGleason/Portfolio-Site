@@ -1,0 +1,33 @@
+/* nav styling */
+.sticky-nav{
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  top: 0;
+  position: sticky;
+  background-color: var(--colore);
+}
+/* home styling */
+.home{
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-img{
+  width: 100px;
+}
+/* projects styling */
+.projects{
+  height: 100vh;
+}
+/* about styling */
+.about{
+  height: 50vh;
+}
+/* contact styling */
+.contact{
+  height: 15vh;
+}

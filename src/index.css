@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* font imports */
+@font-face {
+  font-family: Oswald-Bold;
+  src: url(./assets/fonts/Oswald-Bold.ttf);
+}
+@font-face {
+  font-family: Oswald-Light;
+  src: url(./assets/fonts/Oswald-Light.ttf);
+}
+@font-face {
+  font-family: Oswald-Regular;
+  src: url(./assets/fonts/Oswald-Regular.ttf);
+}
+/* scrollbar styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.5);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,0.7);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --colora: #388087;
+  --colorb: #6FB3B8;
+  --colorc: #BADFE7;
+  --colord: #C2EDCE;
+  --colore: #F6F6F2;
+}
+.app{
+  display: flex;
+  min-height: 100vh;
+  height: max-content;
+  flex-direction: column;
+  width: 100%;
+}
