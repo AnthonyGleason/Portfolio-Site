@@ -1,15 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import { BrowserRouter,Route,Routes } from 'react-router-dom';
 import App from './components/App';
+import './index.css';
 import reportWebVitals from './reportWebVitals';
-import RouteSwitch from './components/RouteSwitch';
+import Nav from './components/Nav';
+import Footer from './components/Footer';
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <RouteSwitch />
+    <Nav />
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<App />} />
+      </Routes>
+    </BrowserRouter>
+    <Footer />
   </React.StrictMode>
 );
 

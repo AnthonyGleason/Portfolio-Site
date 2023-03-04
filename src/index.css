@@ -50,12 +50,12 @@ code {
   --colorb: #6FB3B8;
   --colorc: #BADFE7;
   --colord: #C2EDCE;
-  --colore: #F6F6F2;
+  --colore: #fdfdfd;
 }
-.app{
+#root{
   display: flex;
-  min-height: 100vh;
-  height: max-content;
   flex-direction: column;
-  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  background-color: var(--colord)
 }
