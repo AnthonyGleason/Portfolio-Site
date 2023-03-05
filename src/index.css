@@ -24,7 +24,7 @@ code {
   background: var(--colore);
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--colord);
+  background: var(--colorc);
 }
 ::-webkit-scrollbar-thumb:hover {
   background: var(--colorb);
@@ -48,4 +48,14 @@ code {
   min-height: 100vh;
   height: 100%;
   background-color: var(--colore)
+}
+.to-top-button{
+  right: 5px;
+  bottom: 5px;
+  height: 35px;
+  width: 35px;
+  position: fixed;
+  background-color: black;
+  border-radius: 50%;
+  cursor: pointer;
 }

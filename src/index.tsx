@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter,Route,Routes } from 'react-router-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+import toTopArrow from './assets/arrow-up.svg';
 //import components
 import Projects from './components/Projects/Projects';
 import Blog from './components/Blog/Blog';
@@ -22,6 +23,7 @@ root.render(
         <Route path='/blog' element={<Blog />} />
       </Routes>
     </BrowserRouter>
+    <img onClick={()=>{handleButtonPress()}} src={toTopArrow} className='to-top-button' />
     <Footer />
   </React.StrictMode>
 );
@@ -30,3 +32,8 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+let handleButtonPress = function(){
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
