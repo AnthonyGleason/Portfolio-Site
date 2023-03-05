@@ -31,6 +31,7 @@
 .contact{
   background-color: var(--colore);
   height: max-content;
+  min-height: 40vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -55,5 +56,20 @@
   max-width: 100px;
   width: 100%;
   min-width: 50px;
-
+}
+@keyframes spin{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.contact-content img{
+  animation: 1.5s ease-in-out 0s 1 spin;
+  transition: transform 1s;
+  border-radius: 50%;
+}
+.contact-content img:hover{
+  transform: rotate(45deg);
 }
