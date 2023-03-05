@@ -12,7 +12,6 @@
   grid-template-columns: 1fr 1fr;
   justify-items: flex-end;
   padding: 10px;
-  gap: 20px;
 }
 .greeting-img{
   align-self: center;
@@ -132,8 +131,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 70px;
   box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
+}
+.learning-title,
+.skills-title{
+  padding: 10px;
+  height: 75px;
 }
 .learning-container{
   grid-area: learningcontent;

@@ -12,12 +12,16 @@ import linux from '../assets/logos/linux.svg';
 import jest from '../assets/logos/jest.svg';
 import node from '../assets/logos/node.svg';
 import vscode from '../assets/logos/vscode.svg';
+import git from '../assets/logos/git.svg';
+import rust from '../assets/logos/rust.svg';
 export default function App(){
   return(
     <div className='app'>
       <div className='greeting'>
-        <div className='greeting-text'>Hello there! My name is Anthony, welcome to my personal website! I am a passionate and enthusiastic web developer with a love for FOSS. On this website you can view my projects and personal blog where I talk about Unix and Web Development related topics!</div>
-        <img className='greeting-img' src={greetingImg} />
+        <div className='greeting-text'>
+          Hello! My name is Anthony, welcome to my personal website! I am a passionate and enthusiastic web developer with a love for FOSS. On this website you can view my projects and personal blog where I talk about Unix and Web Development related topics!
+        </div>
+        <img className='greeting-img' src={greetingImg} alt='me' />
       </div>
       <div className='about-me'>
         <div className='about-me-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur deserunt quas voluptate aut repudiandae veritatis minus pariatur molestiae soluta laudantium, iure optio iste iusto corporis sint consectetur tempore autem modi.</div>
@@ -35,10 +39,12 @@ export default function App(){
           <img alt='linux' src={linux} />
           <img alt='jest' src={jest} />
           <img alt='vscode' src={vscode} />
+          <img alt='git' src={git} />
         </div>
         <div className='learning-title'>Learning</div>
         <div className='learning-container'>
           <img alt='nodejs' src={node} />
+          <img alt='rust' src={rust} />
         </div>
       </div>
     </div>

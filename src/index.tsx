@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter,Route,Routes } from 'react-router-dom';
-import App from './components/App';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+//import components
+import Projects from './components/Projects/Projects';
+import Blog from './components/Blog/Blog';
+import App from './components/App';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 const root = ReactDOM.createRoot(
@@ -15,6 +18,8 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<App />} />
+        <Route path='/projects' element={<Projects/>} />
+        <Route path='/blog' element={<Blog />} />
       </Routes>
     </BrowserRouter>
     <Footer />
