@@ -24,7 +24,7 @@ export default function App(){
         <img className='greeting-img' src={greetingImg} alt='me' />
       </div>
       <div className='about-me'>
-        <div className='about-me-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur deserunt quas voluptate aut repudiandae veritatis minus pariatur molestiae soluta laudantium, iure optio iste iusto corporis sint consectetur tempore autem modi.</div>
+        <div className='about-me-text'>This is going to be the projects slideshow. It will be available soon :)</div>
       </div>
       <div className='skills'>
         <div className='skills-title'>My Skills</div>

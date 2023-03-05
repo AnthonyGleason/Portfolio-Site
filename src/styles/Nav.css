@@ -14,12 +14,11 @@
 }
 .nav-buttons{
   display: flex;
-  height: 100%;
-  width: 100%;
-  max-width: 500px;
-  justify-content: space-around;
   align-items: center;
-  margin-right: 5px;
+  justify-content: flex-end;
+  margin: 10px;
+  gap: 5px;
+  width: 100%;
 }
 .nav-buttons img{
   width: 50%;
@@ -31,7 +30,6 @@
   background-color: var(--colord);
   display: flex;
   width: max-content;
-  padding: 5px;
   height: 50px;
   align-items: center;
   justify-content: center;
@@ -39,6 +37,8 @@
   gap: 5px;
   border-radius: 5px;
   box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
+  padding-left:4px;
+  padding-right: 4px;
 }
 .home-wrapper:hover,
 .projects-wrapper:hover,
@@ -52,7 +52,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2px;
 }
 @media screen and (max-width:700px) {
   .nav-buttons *{
@@ -76,11 +75,12 @@
   border-radius: 5px;
   padding: 20px;
   align-self: center;
-  max-height: 50px;
+  max-height: 60px;
+  height: max-content;
 }
 .nav-title:hover{
   cursor: pointer;
-  transform: rotate(5deg);
+  transform: rotate(2deg);
 }
 @media screen and (max-width:700px) {
   .nav-title{

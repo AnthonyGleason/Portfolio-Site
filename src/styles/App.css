@@ -12,6 +12,7 @@
   grid-template-columns: 1fr 1fr;
   justify-items: flex-end;
   padding: 10px;
+  gap: 10px;
 }
 .greeting-img{
   align-self: center;
