@@ -1,5 +1,59 @@
 .footer{
-  background-color: var(--colord);
-  margin: 0 5% 5% 5%;
-  height: 20vh;
+  background-color: var(--colore);
+  padding: 20px;
+  text-align: center;
+  min-height: 40vh;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: white;
+}
+@media screen and (max-width:700px) {
+  .footer{
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 701px){
+  .footer{
+    font-size: 20px;
+  }
+}
+.footer-notice a{
+  text-decoration: none;
+  color: yellow;
+}
+.footer-notice{
+  width: 80%;
+  align-self: center;
+}
+/* contact styling */
+.contact{
+  background-color: var(--colore);
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.contact *{
+  padding: 5px;
+}
+.contact-title{
+  max-height: 400px;
+  max-width: 400px;
+  width: 80%;
+  text-align: center;
+}
+.contact-content{
+  display: flex;
+  gap: 20px;
+}
+.contact-content *{
+  height: 100%;
+  width: 100%;
+  max-width: 100px;
+  width: 100%;
+  min-width: 50px;
+
 }

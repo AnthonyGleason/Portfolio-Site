@@ -1,7 +1,8 @@
 .nav{
   background-color: var(--colorc);
   margin: 15px 5% 15px 5%;
-  height: 10vh;
+  height: max-content;
+  min-height: 10vh;
   display: grid;
   grid-template-columns: 0.5fr 1fr;
   justify-items: end;
@@ -9,12 +10,13 @@
   border-radius: 5px;
   position: sticky;
   top: 0;
+  border: 3px solid grey;
 }
 .nav-buttons{
   display: flex;
   justify-content: space-around;
   width: 80%;
-  background-color: var(--colore);
+  background-color: var(--colord);
   margin: 10px;
   display: flex;
   align-items: center;
@@ -22,8 +24,30 @@
   box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
   border-radius: 5px;
 }
+.nav-buttons *{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin: 5px;
+}
+@media screen and (max-width:700px) {
+  .nav-buttons *{
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 701px){
+  .nav-buttons *{
+    font-size: 20px;
+  }
+}
+.nav-buttons *:hover{
+  cursor: pointer;
+  background-color: aliceblue;
+}
 .nav-title{
-  background-color: var(--colore);
+  background-color: var(--colord);
   margin: 10px;
   width: 80%;
   display: flex;
@@ -32,19 +56,15 @@
   text-align: center;
   box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
   border-radius: 5px;
+  padding: 20px;
 }
-.github-logo,
-.linkedin-logo{
-  background-repeat: no-repeat;
-  height: 30px;
-  width: 30px;
-  display: block;
-  background-size: cover;
+@media screen and (max-width:700px) {
+  .nav-title{
+    font-size: 15px;
+  }
 }
-.github-logo{
-  background-image: url('../assets/logos/github.svg');
-  
-}
-.linkedin-logo{
-  background-image: url('../assets/logos/linkedin.svg');
+@media screen and (min-width: 701px){
+  .nav-title{
+    font-size: 25px;
+  }
 }

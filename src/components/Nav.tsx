@@ -5,10 +5,9 @@ export default function Nav(){
     <div className='nav'>
       <div className='nav-title'>Anthony Infortunio</div>
       <div className='nav-buttons'>
-        <div>Blog</div>
+        <div>Home</div>
         <div>Projects</div>
-        <a className='github-logo' />
-        <a className='linkedin-logo' />
+        <div>Blog</div>
       </div>
     </div>
   )

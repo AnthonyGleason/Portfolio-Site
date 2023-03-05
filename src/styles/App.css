@@ -2,6 +2,8 @@
   background-color: var(--colorc);
   margin: 0 5% 0 5%;
   height: max-content;
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
+  border: 3px solid gray;
 }
 /* greeting styling */
 .greeting{
@@ -9,25 +11,37 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: flex-end;
-  border-radius: 15px;
+  padding: 10px;
+  gap: 20px;
 }
 .greeting-img{
-  width: 90%;
+  align-self: center;
+  width: 100%;
   max-width: 700px;
-  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
   border-radius: 15px;
-  margin: 3%;
+  margin: 2% 2% 5% 5%;
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
 }
 .greeting-text{
-  background-color: var(--colore);
+  background-color: var(--colord);
   margin: 5%;
   border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 10%;
+  padding: 15%;
   box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
+}
+@media screen and (max-width:700px) {
+  .greeting-text{
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 701px){
+  .greeting-text{
+    font-size: 20px;
+  }
 }
 /* about me styling */
 .about-me{
@@ -40,7 +54,7 @@
   height: max-content;
   min-height: 100px;
   box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
-  background-color: var(--colore);
+  background-color: var(--colord);
   border-radius: 5px;
   margin: 10%;
   display: flex;
@@ -49,11 +63,86 @@
   text-align: center;
   padding: 15%;
 }
+@media screen and (max-width:700px) {
+  .about-me-text{
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 701px){
+  .about-me-text{
+    font-size: 20px;
+  }
+}
 /* skills styling */
 .skills{
-  height: 20vh;
+  height: max-content;
+  min-height: 30vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.3fr 1fr;
+  grid-template-areas: 
+  "skilltitle learningtitle"
+  "skillcontent learningcontent";
+  gap: 5%;
+  margin: 5%;
 }
-/* contact styling */
-.contact{
-  height: 20vh;
+@media screen and (max-width:700px) {
+  .skills{
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 701px){
+  .skills{
+    font-size: 20px;
+  }
+}
+.skills-title{
+  grid-area: skilltitle;
+  background-color: var(--colord);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
+}
+.skills-container *,
+.learning-container *{
+  height: 90%;
+  width: 100%;
+  padding: 5px;
+  max-width: 100px;
+}
+.skills-container{
+  grid-area: skillcontent;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-radius: 5px;
+  background-color: var(--colord);
+  padding: 5px;
+  height: max-content;
+  min-height: 400px;
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
+}
+.learning-title{
+  grid-area: learningtitle;
+  background-color: var(--colord);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
+}
+.learning-container{
+  grid-area: learningcontent;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: var(--colord);
+  padding: 5px;
+  min-height: 400px;
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
 }
