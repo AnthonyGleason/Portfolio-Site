@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body {
   margin: 0;
-  font-family: 'Times New Roman', Times, serif ,sans-serif;
+  font-family: 'Playfair Display','Roboto',sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -24,7 +26,7 @@ code {
   background: var(--colorc);
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--colorb);
+  background: slategray;
 }
 
 *{
@@ -33,11 +35,12 @@ code {
   box-sizing: border-box;
 }
 :root{
-  --colora: #4470AD;
-  --colorb: #6888BE;
-  --colorc: #99AFD7;
+  --colora: slategray;
+  --colorb: slategray;
+  --colorc: #EAE7E2;
   --colord: snow;
-  --colore: #233C67;
+  --colore: #0c2543;
+  --colorf: yellow;
   --border-color: black;
 }
 #root{

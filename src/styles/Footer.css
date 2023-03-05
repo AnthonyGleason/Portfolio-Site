@@ -2,21 +2,22 @@
   background-color: var(--colore);
   padding: 20px;
   text-align: center;
-  min-height: 40vh;
   margin: 20px;
   display: flex;
   flex-direction: column;
   gap: 20px;
   color: var(--colorc);
+  margin-bottom: 40px;
+  font-family: 'Roboto';
 }
 @media screen and (max-width:700px) {
   .footer{
-    font-size: 15px;
+    font-size: 12px;
   }
 }
 @media screen and (min-width: 701px){
   .footer{
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 .footer-notice a{
@@ -24,14 +25,14 @@
   color: yellow;
 }
 .footer-notice{
-  width: 80%;
+  max-width: 700px;
   align-self: center;
 }
 /* contact styling */
 .contact{
   background-color: var(--colore);
   height: max-content;
-  min-height: 40vh;
+  min-height: 10vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -42,8 +43,8 @@
 }
 .contact-title{
   max-height: 400px;
-  max-width: 400px;
-  width: 80%;
+  max-width: 700px;
+  width: 100%;
   text-align: center;
 }
 .contact-content{
@@ -51,11 +52,8 @@
   gap: 20px;
 }
 .contact-content *{
-  height: 100%;
-  width: 100%;
-  max-width: 100px;
-  width: 100%;
-  min-width: 50px;
+  min-width: 40px;
+  width: max-content;
 }
 @keyframes spin{
   0%{

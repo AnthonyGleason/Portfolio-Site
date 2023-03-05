@@ -3,7 +3,7 @@
     transform: rotate(0deg);
   }
   50%{
-    transform: rotate(2deg);
+    transform: rotate(5deg);
   }
   100%{
     transform: rotate(0deg);
@@ -21,7 +21,6 @@
   border-radius: 5px;
   position: sticky;
   top: 0;
-  border: 3px solid var(--border-color);
 }
 .nav-buttons{
   display: flex;
@@ -42,19 +41,20 @@
   align-items: center;
   border-radius: 5px;
   box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
-  transition: background-color 0.5s;
+  transition: transform 0.5s;
+  border-left: 3px solid var(--colore);
 }
 .nav-buttons *:hover{
-  background-color: var(--colora);
+  transform: rotate(2deg);
 }
 @media screen and (max-width:700px) {
   .nav-buttons *{
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 @media screen and (min-width: 701px){
   .nav-buttons *{
-    font-size: 15px;
+    font-size: 17px;
   }
 }
 .nav-title{
@@ -73,18 +73,19 @@
   height: max-content;
   transition: transform 0.5s;
   animation: 1s ease-in-out 1s 1 rotateRight;
+  border-left: 3px solid var(--colore);
 }
 .nav-title:hover{
   cursor: pointer;
-  transform: rotate(1deg);
+  transform: rotate(2deg);
 }
 @media screen and (max-width:700px) {
   .nav-title{
-    font-size: 15px;
+    font-size: 12px;
   }
 }
 @media screen and (min-width: 701px){
   .nav-title{
-    font-size: 20px;
+    font-size: 18px;
   }
 }

@@ -37,9 +37,6 @@ export default function App(){
           <a href='https://jestjs.io/'><img alt='jest' src={jest} /></a>
           <a href='https://code.visualstudio.com/'><img alt='vscode' src={vscode} /></a>
           <a href='https://git-scm.com/'><img alt='git' src={git} /></a>
-        </div>
-        <div className='learning-title'>Learning</div>
-        <div className='learning-container'>
           <a href='https://nodejs.dev/en/'><img alt='nodejs' src={node} /></a>
         </div>
       </div>
