@@ -39,8 +39,9 @@ code {
   --colora: #4470AD;
   --colorb: #6888BE;
   --colorc: #99AFD7;
-  --colord: #CCDBEE;
+  --colord: snow;
   --colore: #233C67;
+  --border-color: black;
 }
 #root{
   display: flex;
@@ -52,10 +53,14 @@ code {
 .to-top-button{
   right: 5px;
   bottom: 5px;
-  height: 35px;
-  width: 35px;
+  height: 30px;
+  width: 30px;
   position: fixed;
-  background-color: black;
   border-radius: 50%;
   cursor: pointer;
+  color:var(--colord);
+  background-color: black;
+}
+.to-top-button:hover{
+  color: var(--colora);
 }

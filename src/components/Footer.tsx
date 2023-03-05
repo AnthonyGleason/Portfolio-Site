@@ -15,6 +15,7 @@ export default function Footer(){
           </div>
       </div>
       <div className='footer-notice'>This portfolio is open source! View this page's code <a href='https://github.com/antinf/ainfortun.io'>here</a>.</div>
+      <div className='footer-notice-two'>Made with ❤️ by Anthony Infortunio</div>
     </div>
   )
 }

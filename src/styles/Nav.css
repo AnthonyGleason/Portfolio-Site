@@ -10,7 +10,7 @@
   border-radius: 5px;
   position: sticky;
   top: 0;
-  border: 3px solid grey;
+  border: 3px solid var(--border-color);
 }
 .nav-buttons{
   display: flex;
@@ -39,12 +39,13 @@
   box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
   padding-left:4px;
   padding-right: 4px;
+  fill: black;
 }
 .home-wrapper:hover,
 .projects-wrapper:hover,
 .blog-wrapper:hover{
   cursor: pointer;
-  background-color: var(--colorb);
+  background-color: var(--colora);
 }
 .home-wrapper div,
 .projects-wrapper div,
