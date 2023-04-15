@@ -27,7 +27,9 @@ export default function Projects() {
       desktopIMG: wmpdesktop,
     },
   ];
-
+  useEffect(() => {
+    handleSlideshow(slides, setSlides, slideData);
+  },[]);
   useEffect(() => {
     const slideshowInterval = setInterval(() => {
       handleSlideshow(slides, setSlides, slideData);
@@ -62,8 +64,8 @@ export default function Projects() {
         </li>
       </ul>
       <div className='slide-controls'>
-        <button onClick={()=>{handleSlideshowReverse(slides,setSlides,slideData)}}>Prev</button>
-        <button onClick={()=>{handleSlideshow(slides,setSlides,slideData)}}>Next</button>
+        <button className='prev-button' onClick={()=>{handleSlideshowReverse(slides,setSlides,slideData)}}>Prev</button>
+        <button className='next-button' onClick={()=>{handleSlideshow(slides,setSlides,slideData)}}>Next</button>
       </div>
     </div>
   );

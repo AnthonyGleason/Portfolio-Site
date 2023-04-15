@@ -1,7 +1,29 @@
 .about{
-  min-height: 80vh;
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  color: var(--color-b);
 }
 .about-title{
   display: flex;
+  align-items: center;
   justify-content: center;
+  padding: 15px;
+}
+.about-content{
+  width: 90%;
+  margin-bottom: 20px;
+  padding: 30px;
+  border-radius: 5px;
+  max-width: 500px;
+  height: max-content;
+  background-color: var(--color-b);
+  color: white;
+  font-size: 26px;
+}
+.em{
+  color: var(--color-a);
+  font-weight: 700;
+  font-size: 28px;
 }

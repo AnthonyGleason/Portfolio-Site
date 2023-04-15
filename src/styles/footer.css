@@ -5,7 +5,17 @@
   padding: 30px;
   align-items: center;
   flex-direction: column;
+  color: var(--color-b);
 }
 .footer-title{
   color: white;
+}
+.footer-text{
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+.arrow{
+  margin-top: 6%;
+  margin-left: 70%;
 }
