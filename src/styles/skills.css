@@ -1,3 +1,28 @@
 .skills{
+  list-style: none;
   height: 80vh;
+  display: flex;
+  justify-content: center;
+}
+.skills-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  list-style: none;
+  height: 100%;
+  justify-items: center;
+  min-width: 80%;
+}
+.skills-container li{
+  display: flex;
+  padding: 15px;
+  border-radius: 5px;
+  width: 95%;
+  margin: 5px;
+  background-color: var(--color-b);
+  color: white;
+  justify-content: space-around;
+  align-items: center;
+}
+.skills img{
+  width: 50px;
 }
