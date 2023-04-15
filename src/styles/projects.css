@@ -1,9 +1,10 @@
 .projects{
-  height: 80vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
 }
 .projects-slideshow{
   list-style: none;

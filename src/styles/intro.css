@@ -1,3 +1,31 @@
 .intro{
   height: 80vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.intro-img{
+  z-index: 0;
+  max-width: 450px;
+  width: 90%;
+  transform: rotate(3deg);
+  align-self: flex-end;
+  border: 5px solid black;
+}
+.intro-content{
+  padding: 30px;
+}
+.name{
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  z-index: 2;
+}
+.title{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--color-b);
 }
