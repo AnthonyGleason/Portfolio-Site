@@ -38,7 +38,7 @@ export default function Projects() {
   });
 
   return (
-    <div className='projects'>
+    <div className='projects' id='projects'>
       <h1 className='projects-title'>My Projects</h1>
       <ul className='projects-slideshow'>
         <li className='prev-slide'>
@@ -65,6 +65,7 @@ export default function Projects() {
       </ul>
       <div className='slide-controls'>
         <button className='prev-button' onClick={()=>{handleSlideshowReverse(slides,setSlides,slideData)}}>Prev</button>
+        <button className='view-all' onClick={()=>{window.location.href='https://www.github.com/antinf'}}>View All</button>
         <button className='next-button' onClick={()=>{handleSlideshow(slides,setSlides,slideData)}}>Next</button>
       </div>
     </div>

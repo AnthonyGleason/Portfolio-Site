@@ -3,7 +3,7 @@ import '../styles/footer.css';
 import arrow from '../assets/arrow.svg';
 export default function Footer(){
   return(
-    <div className='footer'>
+    <div className='footer' id='footer'>
       <h1 className='footer-title'>Contact Me</h1>
       <p className='footer-text'>
         I look forward to reading your message!<br /> <br />
