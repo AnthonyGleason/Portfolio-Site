@@ -15,3 +15,13 @@ export default function App(){
     </div>
   )
 }
+
+/*
+  intro has picture of me side by side with intro card
+
+  about me has a box with a quote and shows about me text
+
+  my projects has a slideshow of the projects i made the user can press on projects to learn more and it takes github
+
+  contact, github, linkedin, mail, resume
+*/

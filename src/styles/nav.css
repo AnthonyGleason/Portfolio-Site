@@ -5,6 +5,7 @@
   color: var(--color-b);
   height: 8vh;
   padding-right: 15px;
+  z-index: 20;
 }
 .nav-buttons{
   display: flex;
