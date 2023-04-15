@@ -3,12 +3,17 @@
   top: 0;
   position: sticky;
   color: var(--color-b);
+  height: 8vh;
+  padding-right: 15px;
 }
 .nav-buttons{
   display: flex;
+  height: 100%;
+  align-items: center;
   list-style: none;
   width: 100%;
   justify-content: flex-end;
-  gap: 20px;
-  padding: 10px;
+  gap: 30px;
+  padding: 5px;
+  font-size: 20px;
 }

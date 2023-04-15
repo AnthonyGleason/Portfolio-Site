@@ -20,7 +20,8 @@ import webpackIMG from '../assets/skills/webpack.svg';
 
 export default function Skills(){
   return (
-    <div className='skills'>
+    <div className='skills' id='skills'>
+      <h1 className='skills-title'>My Skills</h1>
       <ul className='skills-container'>
         <li><img src={htmlIMG} alt='HTML logo'/>HTML</li>
         <li><img src={cssIMG} alt='CSS logo'/>CSS</li>

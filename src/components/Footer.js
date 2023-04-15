@@ -3,7 +3,7 @@ import '../styles/footer.css';
 export default function Footer(){
   return(
     <div className='footer'>
-      footer
+      <h1 className='footer-title'>Contact Me</h1>
     </div>
   )
 }
