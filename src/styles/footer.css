@@ -13,10 +13,12 @@
 .footer-text{
   color: white;
   font-size: 20px;
-  padding: 10px;
+  padding: 15px;
+  padding-bottom: 30px;
   text-align: center;
+  border-bottom: 5px solid white;
 }
 .arrow{
-  margin-top: 6%;
-  margin-left: 70%;
+  margin-top: 3%;
+  margin-left: 75%;
 }
