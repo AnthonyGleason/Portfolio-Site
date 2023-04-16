@@ -7,7 +7,7 @@ export default function Footer(){
       <h1 className='footer-title'>Contact Me</h1>
       <p className='footer-text'>
         I look forward to reading your message!<br /> <br />
-        <em className='em'>contact@anthonyinfortun.io</em>
+        <em className='em'><a className='mail' href='mailto:contact@anthonyinfortun.io'>contact@anthonyinfortun.io</a></em>
       </p>
       <img className='arrow' src={arrow} alt='arrow that loops once and points to the right' />
     </div>

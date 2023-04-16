@@ -22,3 +22,7 @@
   margin-top: 3%;
   margin-left: 75%;
 }
+.mail{
+  text-decoration: none;
+  color: var(--color-a);
+}
