@@ -12,7 +12,8 @@
   width: 90%;
   transform: rotate(3deg);
   align-self: flex-end;
-  border: 5px solid black;
+  border-radius: 5px;
+  border: 1px solid black;
 }
 .intro-content{
   padding: 30px;
