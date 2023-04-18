@@ -1,29 +1,25 @@
 .about{
-  min-height: 100vh;
-  height: 100%;
   display: flex;
+  margin: 15px;
   justify-content: space-around;
-  color: var(--color-b);
+}
+.about-content{
+  background-color: var(--color-b);
+  color: white;
+  border-radius: 5px;
+  max-width: 600px;
+  text-align: center;
+  width: 60%;
+  padding: 20px;
+  font-size: clamp(15px, 4vw, 40px);
 }
 .about-title{
   display: flex;
-  align-items: center;
   justify-content: center;
-  padding: 15px;
-}
-.about-content{
-  width: 90%;
-  margin-bottom: 20px;
-  padding: 30px;
-  border-radius: 5px;
-  max-width: 500px;
-  height: max-content;
-  background-color: var(--color-b);
-  color: white;
-  font-size: 26px;
+  align-items: center;
+  font-size: clamp(15px, 3.5vw, 30px);
 }
 .em{
   color: var(--color-a);
-  font-weight: 700;
-  font-size: 28px;
+  border-bottom: 1px solid white;
 }

@@ -1,6 +1,21 @@
 .App{
-  background-color: var(--color-a);
+  display: flex;
+  flex-direction: column;
 }
-.title{
-  color: white;
+.contact-buttons{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  background-color: var(--color-b);
+  border-radius: 5px;
+}
+.contact-buttons img{
+  width: 45px;
+  padding: 4px;
 }

@@ -13,8 +13,8 @@ code {
 }
 
 :root{
-  --color-a: #ffcba0;
-  --color-b: #332f25;
+  --color-a: #dfdfdf;
+  --color-b: #030002;
 }
 *{
   margin: 0;
