@@ -1,0 +1,63 @@
+.projects{
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  display: flex;
+  flex-direction: column;
+}
+.projects-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: clamp(15px, 3.5vw, 30px);
+  padding: 20px;
+}
+.projects-slideshow{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  justify-items: center;
+  width: 100%;
+}
+.projects-slideshow li{
+  height: 100%;
+  min-height: 40vh;
+  border-radius: 5px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.slide-name{
+  background-color: var(--color-b); 
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  width: max-content;
+  margin: 3px;
+  font-size: clamp(12px, 2.5vw, 22px);
+}
+.slide-link{
+  background-color: var(--color-b); 
+  color: white;
+  padding: 10px;
+  width: max-content;
+  border-radius: 5px;
+  margin: 3px;
+  font-size: clamp(12px, 2.5vw, 22px);
+}
+.view-more{
+  align-self: center;
+  margin: 15px;
+  background-color: var(--color-b);
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: clamp(12px, 3vw, 25px);
+}
+.view-more:hover{
+  background-color: rgb(80, 80, 80);
+  cursor: pointer;
+}

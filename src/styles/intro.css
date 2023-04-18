@@ -11,6 +11,8 @@
   align-items: center;
   text-align: center;
   margin: 20px;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
 }
 .intro-content{
   display: flex;

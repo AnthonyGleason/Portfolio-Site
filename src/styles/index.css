@@ -21,3 +21,17 @@ code {
   padding: 0;
   box-sizing: border-box;
 }
+/* scrollbar styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0.8);
+}
+::-webkit-scrollbar-thumb {
+  background: #464646;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

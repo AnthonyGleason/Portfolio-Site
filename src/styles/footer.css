@@ -1,3 +1,29 @@
-.footer .arrow{
-  width: 90%;
+.footer{
+  margin-top: 10vh;
+  background-color: var(--color-b);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.footer-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: clamp(15px, 3.5vw, 30px);
+  padding: 20px;
+  color: white;
+}
+.footer-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: clamp(15px, 3.5vw, 30px);
+  padding: 20px;
+  flex-direction: column;
+  color: white;
+}
+.mail{
+  text-decoration: none;
+  color: white;
 }
