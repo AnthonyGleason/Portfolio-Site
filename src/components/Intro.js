@@ -9,9 +9,9 @@ export default function Intro(){
           Anthony <br />
           Infortunio
         </h1>
-        <h3 className='title'>Full-Stack Web Developer</h3>
+        <h3 className='title'>Junior Full-Stack Web Developer</h3>
       </div>
       <img src={me} className='intro-img' />
     </div>
   )
-}
+};
