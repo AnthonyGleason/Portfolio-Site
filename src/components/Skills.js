@@ -23,22 +23,22 @@ export default function Skills(){
     <div className='skills' id='skills'>
       <h1 className='skills-title'>My Skills</h1>
       <ul className='skills-container'>
-        <li><img src={htmlIMG} alt='HTML logo'/>HTML</li>
-        <li><img src={cssIMG} alt='CSS logo'/>CSS</li>
-        <li><img src={javascriptIMG} alt='JavaScript logo'/>JavaScript</li>
-        <li><img src={typescriptIMG} alt='TypeScript logo'/>TypeScript</li>
-        <li><img src={reactIMG} alt='React logo'/>React.js</li>
-        <li><img src={webpackIMG} alt='Webpack logo'/>Webpack</li>
-        <li><img src={firebaseIMG} alt='Firebase logo'/>Firebase</li>
-        <li><img src={linuxIMG} alt='Linux logo'/>Linux</li>
-        <li><img src={jestIMG} alt='Jest logo'/>Jest</li>
-        <li><img src={vscodeIMG} alt='VSCode logo'/>VSCode</li>
-        <li><img src={gitIMG} alt='Git logo'/>Git</li>
-        <li><img src={nodeIMG} alt='Node.js logo'/>Node.js</li>
-        <li><img src={mongodbIMG} alt='MongoDB logo'/>MongoDB</li>
-        <li><img src={expressIMG} alt='Express logo'/>Express</li>
-        <li><img src={mongooseIMG} alt='Mongoose logo'/>Mongoose</li>
-        <li><img src={herokuIMG} alt='Heroku logo'/>Heroku</li>
+        <li className='expand'><img src={htmlIMG} alt='HTML logo'/>HTML</li>
+        <li className='expand'><img src={cssIMG} alt='CSS logo'/>CSS</li>
+        <li className='expand'><img src={javascriptIMG} alt='JavaScript logo'/>JavaScript</li>
+        <li className='expand'><img src={typescriptIMG} alt='TypeScript logo'/>TypeScript</li>
+        <li className='expand'><img src={reactIMG} alt='React logo'/>React.js</li>
+        <li className='expand'><img src={webpackIMG} alt='Webpack logo'/>Webpack</li>
+        <li className='expand'><img src={firebaseIMG} alt='Firebase logo'/>Firebase</li>
+        <li className='expand'><img src={linuxIMG} alt='Linux logo'/>Linux</li>
+        <li className='expand'><img src={jestIMG} alt='Jest logo'/>Jest</li>
+        <li className='expand'><img src={vscodeIMG} alt='VSCode logo'/>VSCode</li>
+        <li className='expand'><img src={gitIMG} alt='Git logo'/>Git</li>
+        <li className='expand'><img src={nodeIMG} alt='Node.js logo'/>Node.js</li>
+        <li className='expand'><img src={mongodbIMG} alt='MongoDB logo'/>MongoDB</li>
+        <li className='expand'><img src={expressIMG} alt='Express logo'/>Express</li>
+        <li className='expand'><img src={mongooseIMG} alt='Mongoose logo'/>Mongoose</li>
+        <li className='expand'><img src={herokuIMG} alt='Heroku logo'/>Heroku</li>
       </ul>
     </div>
   );  

@@ -28,11 +28,11 @@ export default function Projects() {
       <h1 className='projects-title'>My Projects</h1>
       <ul className='projects-slideshow'>
         {slideData.map((slide, index) => (
-          <li
-            className='slide-item'
+        <li
+            className='slide-item expand'
             style={{ backgroundImage: slide.desktopIMG }}
             key={index}
-          >
+          >        
             <p className='slide-name'>{slide.name}</p>
             <a className='slide-link' href={slide.url}>
               View Project

@@ -7,10 +7,10 @@ import '../styles/contact-buttons.css';
 export default function ContactButtons(){
   return(
     <div className='contact-buttons'>
-      <img onClick={()=>{window.location.href='https://www.github.com/antinf'}} src={githubLogo} alt='github logo' />
-      <img onClick={()=>{window.location.href='https://www.linkedin.com/in/anthony-infortunio-872645220'}} src={linkedinLogo} alt='linkedin logo' />
-      <img onClick={()=>{window.location.href='mailto:contact@anthonyinfortun.io'}} src={mailImg} alt='mailing envelope' />
-      <img src={resumeImg} alt='white paper' />
+      <img className='expand' onClick={()=>{window.location.href='https://www.github.com/antinf'}} src={githubLogo} alt='github logo' />
+      <img className='expand' onClick={()=>{window.location.href='https://www.linkedin.com/in/anthony-infortunio-872645220'}} src={linkedinLogo} alt='linkedin logo' />
+      <img className='expand' onClick={()=>{window.location.href='mailto:contact@anthonyinfortun.io'}} src={mailImg} alt='mailing envelope' />
+      <img className='expand' src={resumeImg} alt='white paper' />
     </div>
   )
 };

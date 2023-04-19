@@ -32,6 +32,7 @@
 .projects-slideshow li:last-child{
   background-position: center;
 }
+
 .slide-name{
   background-color: var(--color-b); 
   color: white;

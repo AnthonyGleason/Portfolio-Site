@@ -35,3 +35,12 @@ code {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+.expand {
+  z-index: 1;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.expand:hover{
+  transform: scale(1.05);
+}
