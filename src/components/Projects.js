@@ -33,12 +33,12 @@ export default function Projects() {
         style={{ backgroundImage: slide.desktopIMG }}
         key={index}
         onClick={() => {window.location.href = slide.url}}
-      >        
-        <p className='slide-name'>{slide.name}</p>
-        <a className='slide-link' href={slide.url}>
-          View Project
-        </a>
-      </li>
+        >        
+          <p className='slide-name'>{slide.name}</p>
+          <a className='slide-link' href={slide.url}>
+            View Project
+          </a>
+        </li>
       
         ))}
       </ul>
