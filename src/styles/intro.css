@@ -13,10 +13,11 @@
   margin: 20px;
   margin-top: 10vh;
   margin-bottom: 10vh;
+  min-height: 80vh;
 }
 .intro-content{
   display: flex;
   flex-direction: column;
   gap: 10px;
-  font-size: clamp(12px, 3vw, 35px);
+  font-size: clamp(12px, 4.5vw, 35px);
 }

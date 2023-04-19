@@ -4,6 +4,7 @@
   justify-content: space-around;
   margin-top: 10vh;
   margin-bottom: 10vh;
+  min-height: 80vh;
 }
 .about-content{
   background-color: var(--color-b);
@@ -13,14 +14,15 @@
   text-align: center;
   width: 60%;
   padding: 20px;
-  font-size: clamp(15px, 4vw, 40px);
+  font-size: clamp(15px, 5.5vw, 40px);
 }
 .about-title{
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: clamp(15px, 3.5vw, 30px);
+  font-size: clamp(15px, 5.5vw, 30px);
   padding: 20px;
+  text-align: center;
 }
 .em{
   color: var(--color-a);
