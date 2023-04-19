@@ -5,6 +5,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  gap:10px;
 }
 .footer-title{
   display: flex;
@@ -29,4 +30,10 @@
 .mail{
   text-decoration: none;
   color: white;
+}
+.arrow{
+  width: 50%;
+  max-width: 500px;
+  justify-self: center;
+  align-self: center;
 }
