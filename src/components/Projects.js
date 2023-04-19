@@ -29,15 +29,17 @@ export default function Projects() {
       <ul className='projects-slideshow'>
         {slideData.map((slide, index) => (
         <li
-            className='slide-item expand'
-            style={{ backgroundImage: slide.desktopIMG }}
-            key={index}
-          >        
-            <p className='slide-name'>{slide.name}</p>
-            <a className='slide-link' href={slide.url}>
-              View Project
-            </a>
-          </li>
+        className='slide-item expand'
+        style={{ backgroundImage: slide.desktopIMG }}
+        key={index}
+        onClick={() => {window.location.href = slide.url}}
+      >        
+        <p className='slide-name'>{slide.name}</p>
+        <a className='slide-link' href={slide.url}>
+          View Project
+        </a>
+      </li>
+      
         ))}
       </ul>
       <button
