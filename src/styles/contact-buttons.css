@@ -12,6 +12,9 @@
   border-radius: 5px;
   z-index: 99;
   cursor: pointer;
+  border-left: 2px solid var(--color-a);
+  border-bottom: 2px solid var(--color-a);
+  border-top: 2px solid var(--color-a);
 }
 .contact-buttons img{
   width: 45px;
