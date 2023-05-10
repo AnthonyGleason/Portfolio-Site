@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/about.css';
 export default function About(){
   return(
-    <div className='about' id='about'>
+    <section className='about' id='about'>
       <p className='about-content'>
         " 
           Hello my name is Anthony, I am <em className='em'>passionate</em> about building high-quality software that <em className='em'>solves real-world problems</em>.
@@ -11,6 +11,6 @@ export default function About(){
         "
       </p>
       <h1 className='about-title'>About Me</h1>
-    </div>
+    </section>
   )
 }

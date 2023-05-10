@@ -5,13 +5,30 @@ import mailImg from '../assets/mail.svg';
 import resumeImg from '../assets/resume.svg';
 import resumePDF from '../assets/resume.pdf';
 import '../styles/contact-buttons.css';
-export default function ContactButtons(){
-  return(
-    <div className='contact-buttons'>
-      <img className='expand' onClick={()=>{window.location.href='https://www.github.com/antinf'}} src={githubLogo} alt='github logo' />
-      <img className='expand' onClick={()=>{window.location.href='https://www.linkedin.com/in/anthony-infortunio-872645220'}} src={linkedinLogo} alt='linkedin logo' />
-      <img className='expand' onClick={()=>{window.location.href='mailto:contact@anthonyinfortun.io'}} src={mailImg} alt='mailing envelope' />
-      <a href={resumePDF}><img className='expand' src={resumeImg} alt='white paper' /></a>
-    </div>
-  )
-};
+
+export default function ContactButtons() {
+  return (
+    <ul className='contact-buttons'>
+      <li>
+        <a href='https://www.github.com/antinf'>
+          <img className='expand' src={githubLogo} alt='github logo' />
+        </a>
+      </li>
+      <li>
+        <a href='https://www.linkedin.com/in/anthony-infortunio-872645220'>
+          <img className='expand' src={linkedinLogo} alt='linkedin logo' />
+        </a>
+      </li>
+      <li>
+        <a href='mailto:contact@anthonyinfortun.io'>
+          <img className='expand' src={mailImg} alt='mailing envelope' />
+        </a>
+      </li>
+      <li>
+        <a href={resumePDF}>
+          <img className='expand' src={resumeImg} alt='white paper' />
+        </a>
+      </li>
+    </ul>
+  );
+}

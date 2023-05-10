@@ -20,7 +20,7 @@ import webpackIMG from '../assets/skills/webpack.svg';
 
 export default function Skills(){
   return (
-    <div className='skills' id='skills'>
+    <section className='skills' id='skills'>
       <h1 className='skills-title'>My Skills</h1>
       <ul className='skills-container'>
         <li className='expand'><img src={htmlIMG} alt='HTML logo'/>HTML</li>
@@ -40,6 +40,6 @@ export default function Skills(){
         <li className='expand'><img src={mongooseIMG} alt='Mongoose logo'/>Mongoose</li>
         <li className='expand'><img src={herokuIMG} alt='Heroku logo'/>Heroku</li>
       </ul>
-    </div>
+    </section>
   );  
 }

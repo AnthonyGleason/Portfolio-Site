@@ -24,7 +24,7 @@ export default function Projects() {
   ];
 
   return (
-    <div className='projects' id='projects'>
+    <section className='projects' id='projects'>
       <h1 className='projects-title'>My Projects</h1>
       <ul className='projects-slideshow'>
         {slideData.map((slide, index) => (
@@ -50,6 +50,6 @@ export default function Projects() {
       >
         View More Projects
       </button>
-    </div>
+    </section>
   );
 }

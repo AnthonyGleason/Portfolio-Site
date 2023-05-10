@@ -4,8 +4,10 @@
   justify-content: space-around;
   padding: 10px;
 }
-.nav li{
+.nav a{
   font-size: clamp(15px, 5vw, 30px);
   padding: 5px;
   cursor: pointer;
+  text-decoration: none;
+  color: black;
 }
