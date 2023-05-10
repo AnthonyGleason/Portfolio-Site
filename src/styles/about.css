@@ -15,7 +15,6 @@
   width: 60%;
   padding: 20px;
   font-size: clamp(15px, 5.5vw, 40px);
-  
 }
 .about-title{
   display: flex;
