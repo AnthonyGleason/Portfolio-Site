@@ -1,6 +1,6 @@
 .projects{
-  margin-top: 10vh;
-  margin-bottom: 10vh;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
   display: flex;
   flex-direction: column;
 }
@@ -9,13 +9,13 @@
   justify-content: center;
   align-items: center;
   font-size: clamp(15px, 5.5vw, 30px);
-  padding: 20px;
+  padding: 30px;
 }
 .projects-slideshow{
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr;
-  gap: 10px;
+  gap: 8vh;
   justify-items: center;
   width: 100%;
 }

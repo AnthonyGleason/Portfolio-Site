@@ -3,8 +3,13 @@ import '../styles/projects.css';
 import newsweekdesktop from '../assets/projects/newsweekdesktop.png';
 import wmpdesktop from '../assets/projects/wheresmypackagedesktop.png';
 import luccifitdesktop from '../assets/projects/luccifitdesktop.png';
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 export default function Projects() {
+  useEffect(()=>{
+    Aos.init({duration: 800});
+  },[])
   const slideData = [
     {
       name: 'React.js Newsweek Clone',
@@ -25,10 +30,11 @@ export default function Projects() {
 
   return (
     <section className='projects' id='projects'>
-      <h1 className='projects-title'>My Projects</h1>
+      <h1 data-aos='fade-right' className='projects-title'>My Projects</h1>
       <ul className='projects-slideshow'>
         {slideData.map((slide, index) => (
         <li
+        data-aos="fade-right"
         className='slide-item expand'
         style={{ backgroundImage: slide.desktopIMG }}
         key={index}
@@ -43,6 +49,7 @@ export default function Projects() {
         ))}
       </ul>
       <button
+        data-aos='fade-right'
         className='view-more'
         onClick={() => {
           window.location.href = 'https://www.github.com/antinf';
