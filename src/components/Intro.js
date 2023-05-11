@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 
 export default function Intro(){
   useEffect(()=>{
-    Aos.init({duration: 3000});
+    Aos.init({duration: 2500});
   },[])
   return(
     <section className='intro' id='intro'>

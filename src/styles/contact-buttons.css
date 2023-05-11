@@ -6,7 +6,6 @@
   flex-direction: column;
   right: 0;
   top: 50%;
-  transform: translateY(-50%);
   width: 50px;
   background-color: var(--color-b);
   border-radius: 5px;

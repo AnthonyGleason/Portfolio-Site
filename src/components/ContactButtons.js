@@ -1,14 +1,19 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import githubLogo from '../assets/github.svg';
 import linkedinLogo from '../assets/linkedin.svg';
 import mailImg from '../assets/mail.svg';
 import resumeImg from '../assets/resume.svg';
 import resumePDF from '../assets/resume.pdf';
 import '../styles/contact-buttons.css';
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 export default function ContactButtons() {
+  useEffect(()=>{
+    Aos.init({duration: 2500});
+  },[])
   return (
-    <ul className='contact-buttons'>
+    <ul data-aos='fade-in' className='contact-buttons'>
       <li>
         <a href='https://www.github.com/antinf'>
           <img className='expand' src={githubLogo} alt='github logo' />
