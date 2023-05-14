@@ -21,13 +21,14 @@
 }
 .projects-slideshow li{
   height: 100%;
-  min-height: 40vh;
+  min-height: 65vh;
   border-radius: 5px;
   width: 80%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 .projects-slideshow li:last-child{
   background-position: center;
@@ -60,6 +61,7 @@
   border-radius: 5px;
   padding: 15px;
   font-size: clamp(12px, 5vw, 25px);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 .view-more:hover{
   background-color: rgb(80, 80, 80);

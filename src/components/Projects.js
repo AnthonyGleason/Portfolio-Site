@@ -13,12 +13,12 @@ export default function Projects() {
   const slideData = [
     {
       name: 'React.js Newsweek Clone',
-      url:'https://github.com/antinf/Responsive-Newsweek-React.js-Clone',
+      url:'https://antinf.github.io/Responsive-Newsweek-React.js-Clone/',
       desktopIMG: `url(${newsweekdesktop})`,
     },
     {
       name: "Where's My Package?",
-      url: 'https://github.com/antinf/Wheres-My-Package',
+      url: 'https://antinf.github.io/Wheres-My-Package/',
       desktopIMG: `url(${wmpdesktop})`,
     },
     {
@@ -52,7 +52,7 @@ export default function Projects() {
         data-aos='fade-right'
         className='view-more'
         onClick={() => {
-          window.location.href = 'https://www.github.com/antinf';
+          window.location.href = 'https://github.com/antinf?tab=repositories';
         }}
       >
         View More Projects

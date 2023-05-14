@@ -15,6 +15,7 @@
   border-bottom: 2px solid var(--color-a);
   border-top: 2px solid var(--color-a);
   list-style: none;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 .contact-buttons img{
   width: 45px;
