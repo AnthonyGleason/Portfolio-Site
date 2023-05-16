@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  right: 0;
+  right: 2px;
   top: 50%;
   width: 50px;
   background-color: var(--color-b);
@@ -14,7 +14,7 @@
   cursor: pointer;
   border: 2px solid var(--color-a);
   list-style: none;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 8px #1d1d1f;
 }
 .contact-buttons img{
   width: 45px;

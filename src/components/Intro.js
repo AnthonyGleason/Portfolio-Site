@@ -15,7 +15,7 @@ export default function Intro(){
           Anthony <br />
           Infortunio
         </h1>
-        <h3 className='title'>Junior Full-Stack Web Developer</h3>
+        <h3 className='title intro-title'>Junior Full-Stack Web Developer</h3>
       </header>
       <img data-aos='fade-in' src={me} className='intro-img' alt='me' />
     </section>

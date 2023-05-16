@@ -13,8 +13,8 @@ export default function Projects() {
   const slideData = [
     {
       name: 'Newsweek Layout Clone',
-      url:'https://antinf.github.io/Responsive-Newsweek-React.js-Clone/',
-      codeUrl: 'https://github.com/antinf/Responsive-Newsweek-React.js-Clone',
+      url:'https://antinf.github.io/Newsweek-Layout-Clone/',
+      codeUrl: 'https://github.com/antinf/Newsweek-Layout-Clone',
       desktopIMG: `url(${newsweekdesktop})`,
     },
     {
@@ -42,14 +42,16 @@ export default function Projects() {
         style={{ backgroundImage: slide.desktopIMG }}
         key={index}
         onClick={() => {window.location.href = slide.url}}
-        >        
-          <p className='slide-name'>{slide.name}</p>
-          <a className='slide-link' href={slide.url}>
-            View Project
-          </a>
-          <a className='slide-link' href={slide.codeUrl}>
-            View Source Code
-          </a>
+        > 
+          <div className='slide-desc'>
+            <p className='slide-name'>{slide.name}</p>
+            <a className='slide-link' href={slide.url}>
+              View Project
+            </a>
+            <a className='slide-link' href={slide.codeUrl}>
+              View Source Code
+            </a>
+          </div>       
         </li>
       
         ))}

@@ -5,18 +5,17 @@
 }
 .to-top-button {
   border-radius: 50%;
-  height: 35px;
+  height: 32px;
   position: fixed;
-  width: 35px;
+  width: 32px;
   right: 0;
   bottom: 0;
-  color: rgb(0, 0, 0);
-  background-color: var(--color-a);
+  color: #1d1d1f;
+  background-color: white;
   margin: 5px;
   cursor: pointer;
-  transition: 0.5s;
 }
 
 .to-top-button:hover {
-  color: gray;
+  color: #6e6e73;
 }
