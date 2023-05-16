@@ -22,7 +22,7 @@
 .projects-slideshow li{
   height: 100%;
   min-height: 65vh;
-  border-radius: 5px;
+  border-radius: 18px;
   width: 80%;
   display: flex;
   flex-direction: column;
@@ -38,7 +38,7 @@
   background-color: var(--color-b); 
   color: white;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 18px;
   width: max-content;
   margin: 3px;
   font-size: clamp(12px, 5vw, 22px);
@@ -48,7 +48,7 @@
   color: white;
   padding: 10px;
   width: max-content;
-  border-radius: 5px;
+  border-radius: 18px;
   margin: 3px;
   font-size: clamp(12px, 4.5vw, 22px);
 }
@@ -58,7 +58,7 @@
   background-color: var(--color-b);
   color: white;
   border: 0;
-  border-radius: 5px;
+  border-radius: 18px;
   padding: 15px;
   font-size: clamp(12px, 5vw, 25px);
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);

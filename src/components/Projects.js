@@ -12,18 +12,21 @@ export default function Projects() {
   },[])
   const slideData = [
     {
-      name: 'React.js Newsweek Clone',
+      name: 'Newsweek Layout Clone',
       url:'https://antinf.github.io/Responsive-Newsweek-React.js-Clone/',
+      codeUrl: 'https://github.com/antinf/Responsive-Newsweek-React.js-Clone',
       desktopIMG: `url(${newsweekdesktop})`,
     },
     {
       name: "Where's My Package?",
       url: 'https://antinf.github.io/Wheres-My-Package/',
+      codeUrl: 'https://github.com/antinf/Wheres-My-Package',
       desktopIMG: `url(${wmpdesktop})`,
     },
     {
       name: "Lucci Fit",
       url: 'https://luccifit.com/',
+      codeUrl: '',
       desktopIMG: `url(${luccifitdesktop})`,
     },
   ];
@@ -43,6 +46,9 @@ export default function Projects() {
           <p className='slide-name'>{slide.name}</p>
           <a className='slide-link' href={slide.url}>
             View Project
+          </a>
+          <a className='slide-link' href={slide.codeUrl}>
+            View Source Code
           </a>
         </li>
       

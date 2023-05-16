@@ -3,11 +3,15 @@
   list-style-type: none;
   justify-content: space-around;
   padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background-color: black;
 }
 .nav a{
   font-size: clamp(15px, 5vw, 30px);
   padding: 5px;
   cursor: pointer;
   text-decoration: none;
-  color: black;
+  color: white;
 }

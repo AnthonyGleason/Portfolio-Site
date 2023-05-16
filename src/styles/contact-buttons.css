@@ -8,12 +8,11 @@
   top: 50%;
   width: 50px;
   background-color: var(--color-b);
-  border-radius: 5px;
+  border-radius: 18px;
+  padding: 10px;
   z-index: 99;
   cursor: pointer;
-  border-left: 2px solid var(--color-a);
-  border-bottom: 2px solid var(--color-a);
-  border-top: 2px solid var(--color-a);
+  border: 2px solid var(--color-a);
   list-style: none;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
