@@ -9,10 +9,9 @@
   position: fixed;
   width: 32px;
   right: 0;
-  bottom: 0;
+  bottom: 5px;
   color: #1d1d1f;
   background-color: white;
-  margin: 5px;
   cursor: pointer;
 }
 

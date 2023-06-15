@@ -28,7 +28,7 @@ export default function Skills(){
     <section className='skills' id='skills'>
       <h1 data-aos='fade-right' className='skills-title'>My Skills</h1>
       <ul className='skills-container'>
-        <li data-aos='fade-right' className='expand'><img src={htmlIMG} alt='HTML logo'/>HTML</li>
+        <li data-aos='fade-right' className='expand'><img src={htmlIMG} alt='HTML5 logo'/>HTML5</li>
         <li data-aos='fade-right' className='expand'><img src={cssIMG} alt='CSS logo'/>CSS</li>
         <li data-aos='fade-right' className='expand'><img src={javascriptIMG} alt='JavaScript logo'/>JavaScript</li>
         <li data-aos='fade-right' className='expand'><img src={typescriptIMG} alt='TypeScript logo'/>TypeScript</li>

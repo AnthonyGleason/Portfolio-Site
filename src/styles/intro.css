@@ -1,8 +1,8 @@
 .intro-img{
   width: 35%;
-  max-width: 400px;
   border-radius: 18px;
   margin: 5px;
+  max-width: 400px;
   box-shadow: 0px 4px 8px #1d1d1f;
 }
 .intro{
@@ -15,12 +15,23 @@
   margin-bottom: 10vh;
   min-height: 80vh;
 }
-.intro-title{
-  color: #6e6e73;
+
+@media only screen and (max-width: 620px) {
+  .intro {
+    flex-direction: column;
+  }
+  .intro-img{
+    width: 80%;
+    max-width: 300px;
+  }
 }
+
 .intro-content{
   display: flex;
   flex-direction: column;
   gap: 10px;
-  font-size: clamp(12px, 4.5vw, 35px);
+  font-size: clamp(12px, 5vw, 35px);
+}
+.intro-title{
+  font-weight: 500;
 }

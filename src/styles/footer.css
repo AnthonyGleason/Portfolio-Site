@@ -32,8 +32,9 @@
   color: white;
 }
 .arrow{
-  width: 50%;
-  max-width: 500px;
+  width: 25%;
+  max-width: 100px;
   justify-self: center;
   align-self: center;
+  color: white;
 }

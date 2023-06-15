@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import '../styles/projects.css';
 import newsweekdesktop from '../assets/projects/newsweekdesktop.png';
 import wmpdesktop from '../assets/projects/wheresmypackagedesktop.png';
-import luccifitdesktop from '../assets/projects/luccifitdesktop.png';
+import appxchangedesktop from '../assets/projects/appxchange.jpg';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 
@@ -12,23 +12,23 @@ export default function Projects() {
   },[])
   const slideData = [
     {
-      name: 'Newsweek Layout Clone',
-      url:'https://antinf.github.io/Newsweek-Layout-Clone/',
-      codeUrl: 'https://github.com/antinf/Newsweek-Layout-Clone',
-      desktopIMG: `url(${newsweekdesktop})`,
-    },
-    {
       name: "Where's My Package?",
       url: 'https://antinf.github.io/Wheres-My-Package/',
       codeUrl: 'https://github.com/antinf/Wheres-My-Package',
       desktopIMG: `url(${wmpdesktop})`,
     },
     {
-      name: "Lucci Fit",
-      url: 'https://luccifit.com/',
-      codeUrl: '',
-      desktopIMG: `url(${luccifitdesktop})`,
+      name: 'Newsweek Layout Clone',
+      url:'https://antinf.github.io/Newsweek-Layout-Clone/',
+      codeUrl: 'https://github.com/antinf/Newsweek-Layout-Clone',
+      desktopIMG: `url(${newsweekdesktop})`,
     },
+    {
+      name: 'AppXchange',
+      url: 'https://antinf.github.io/AppXchange/',
+      codeUrl: 'https://github.com/antinf/AppXchange',
+      desktopIMG: `url(${appxchangedesktop})`,
+    }
   ];
 
   return (
@@ -39,7 +39,7 @@ export default function Projects() {
         <li
         data-aos="fade-right"
         className='slide-item expand'
-        style={{ backgroundImage: slide.desktopIMG }}
+        style={{ backgroundImage: slide.desktopIMG}}
         key={index}
         onClick={() => {window.location.href = slide.url}}
         > 
@@ -53,7 +53,6 @@ export default function Projects() {
             </a>
           </div>       
         </li>
-      
         ))}
       </ul>
       <button
