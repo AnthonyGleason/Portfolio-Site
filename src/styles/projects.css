@@ -3,12 +3,14 @@
   margin-bottom: 20vh;
   display: flex;
   flex-direction: column;
+  gap: 40px;
 }
 .projects-title{
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: clamp(15px, 5.5vw, 30px);
+  font-size: clamp(18px, 5vw, 40px);
+  color: var(--color-a);
   padding: 30px;
 }
 .projects-slideshow{
@@ -22,7 +24,6 @@
 .projects-slideshow li{
   height: 100%;
   min-height: 65vh;
-  border-radius: 18px;
   width: 80%;
   display: flex;
   flex-direction: column;
@@ -32,21 +33,13 @@
   background-repeat: no-repeat;
 }
 .projects-slideshow li:last-child {
-  background-position: center;
+  background-position: left top;
   background-repeat: no-repeat;
   background-size: cover;
 }
-@media only screen and (max-width: 768px) {
-  .projects-slideshow li:nth-last-child(-n+2) {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-}
 
 .slide-desc{
-  background-color: #28282b;
-  border-radius: 18px;
+  background-color: var(--color-b);
   height: max-content;
   display: flex;
   flex-direction: column;
@@ -56,29 +49,32 @@
   margin-left: 10px;
 }
 .slide-name{
-  color: white;
+  color: var(--color-a);
   padding: 10px;
   width: max-content;
-  font-size: clamp(12px, 5vw, 22px);
+  font-size: clamp(14px, 5vw, 30px);
 }
 .slide-link{
-  color: white;
+  color: var(--color-a);
   padding: 10px;
   width: max-content;
-  font-size: clamp(12px, 4.5vw, 22px);
+  font-size: clamp(12px, 5vw, 25px);
+}
+.slide-link:hover{
+  color: var(--color-c);
 }
 .view-more{
   align-self: center;
   margin: 15px;
   background-color: var(--color-b);
-  color: white;
+  color: var(--color-a);
   border: 0;
-  padding: 15px;
-  border-radius: 18px;
-  font-size: clamp(12px, 5vw, 25px);
+  padding: 20px;
+  font-size: clamp(16px, 5vw, 35px);
   box-shadow: 0px 4px 8px #1d1d1f;
+  text-decoration: underline;
 }
 .view-more:hover{
-  background-color: rgb(80, 80, 80);
+  color: var(--color-c);
   cursor: pointer;
 }

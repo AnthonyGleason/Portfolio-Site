@@ -10,11 +10,11 @@
   width: 32px;
   right: 0;
   bottom: 5px;
-  color: #1d1d1f;
-  background-color: white;
+  color: var(--colorc);
+  background-color: var(--color-a);
   cursor: pointer;
 }
 
 .to-top-button:hover {
-  color: #6e6e73;
+  color: var(--color-c);
 }

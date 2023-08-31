@@ -19,22 +19,20 @@
 } */
 
 .contact-buttons {
-  position: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
-  bottom: 5px;
-  padding: 5px;
+  padding: 20px;
   width: max-content;
-  background-color: var(--color-b);
+  background-color: var(--color-d);
   border-radius: 18px;
   z-index: 99;
+  gap: 20px;
   cursor: pointer;
   list-style: none;
-  box-shadow: 0px 4px 8px #1d1d1f;
   align-self: center;
 }
 .contact-buttons img {
-  width: 45px;
+  width: clamp(15px, 10vw, 60px);
   padding: 4px;
 }

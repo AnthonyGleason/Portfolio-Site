@@ -11,7 +11,7 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fbfbfd;
+  background-color: #1d1d1f;
 }
 
 code {
@@ -20,8 +20,11 @@ code {
 }
 
 :root{
-  --color-a: #dfdfdf;
+  --color-a: #ebe1e1;
   --color-b: #1d1d1f;
+  --color-c: #6e6e73;
+  --color-d: rgb(65, 55, 55);
+  --color-e: white;
 }
 *{
   margin: 0;
@@ -37,7 +40,7 @@ code {
   background: #1d1d1f;
 }
 ::-webkit-scrollbar-thumb {
-  background: #464646;
+  background: var(--color-c);
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #555;

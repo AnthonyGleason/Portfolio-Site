@@ -4,14 +4,12 @@ import './styles/index.css';
 import App from './components/App';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
-import ContactButtons from './components/ContactButtons';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Nav />
-    <ContactButtons />
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<App />}/>

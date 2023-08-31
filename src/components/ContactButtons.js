@@ -5,17 +5,23 @@ import mailImg from '../assets/mail.svg';
 import resumeImg from '../assets/resume.svg';
 import resumePDF from '../assets/resume.pdf';
 import '../styles/contact-buttons.css';
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 export default function ContactButtons() {
+  useEffect(()=>{
+    Aos.init({duration: 2000});
+  },[])
+
   return (
-    <ul className='contact-buttons'>
+    <ul data-aos='fade-in' className='contact-buttons'>
       <li>
         <a href='https://www.github.com/antinf'>
           <img className='expand' src={githubLogo} alt='github logo' />
         </a>
       </li>
       <li>
-        <a href='https://www.linkedin.com/in/anthony-infortunio-872645220'>
+        <a href='https://www.linkedin.com/in/anthony-infortunio'>
           <img className='expand' src={linkedinLogo} alt='linkedin logo' />
         </a>
       </li>
