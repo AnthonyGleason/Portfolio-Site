@@ -13,7 +13,7 @@ export default function Intro(){
       <header data-aos='fade-in' className='intro-content'>
         <h1 className='name'>
           Anthony <br />
-          Infortunio
+          Gleason
         </h1>
         <h3 className='title intro-title'>Full Stack Developer</h3>
       </header>
