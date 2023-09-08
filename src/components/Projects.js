@@ -2,20 +2,22 @@ import React, { useEffect, useState } from 'react';
 import '../styles/projects.css';
 import newsweekdesktop from '../assets/projects/newsweekdesktop.png';
 import wmpdesktop from '../assets/projects/wheresmypackagedesktop.png';
+import passninjadesktop from '../assets/projects/passninjadesktp.png';
 
 export default function Projects() {
   const slideData = [
-    {
-      name: "Pass Ninja",
-      url: 'https://anthonygleason.github.io/Pass-Ninja/',
-      codeUrl: 'https://github.com/anthonygleason/Pass-Ninja',
-      desktopIMG: ``,
-    },
+    
     {
       name: "Where's My Package?",
       url: 'https://anthonygleason.github.io/Wheres-My-Package/',
       codeUrl: 'https://github.com/anthonygleason/Wheres-My-Package',
       desktopIMG: `url(${wmpdesktop})`,
+    },
+    {
+      name: "Pass Ninja",
+      url: 'https://anthonygleason.github.io/Pass-Ninja/',
+      codeUrl: 'https://github.com/anthonygleason/Pass-Ninja',
+      desktopIMG: `url(${passninjadesktop})`,
     },
     {
       name: 'Newsweek Layout Clone',
