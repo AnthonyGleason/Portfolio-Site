@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './styles/index.css';
-import App from './components/App';
-import Nav from './components/Nav';
-import Footer from './components/Footer';
+import './index.css';
+import App from './components/App/App';
+import Nav from './components/Nav/Nav';
+import Footer from './components/Footer/Footer';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 const root = ReactDOM.createRoot(document.getElementById('root'));

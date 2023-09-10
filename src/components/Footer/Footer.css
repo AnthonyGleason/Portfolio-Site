@@ -1,0 +1,41 @@
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--color-a);
+  background-color: var(--color-d);
+  justify-content: center;
+  align-content: center;
+  padding: 1em;
+  gap: 10px;
+  min-height: 100vh;
+  text-align: center;
+}
+.footer h1{
+  text-align: center;
+}
+.footer p{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  gap: 10px;
+}
+.footer p em a{
+  text-decoration: none;
+  color: var(--color-a);
+  cursor: pointer;
+}
+.footer p em a:hover{
+  color: black;
+}
+.footer ol{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.footer ol li img{
+  min-width: 40px;
+}

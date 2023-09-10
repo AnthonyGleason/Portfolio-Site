@@ -1,0 +1,22 @@
+.about{
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+.about-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--color-e);
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  max-width: 900px;
+}
+.about-title{
+  text-align: center;
+}
+.about-text{
+  text-align: center;
+}

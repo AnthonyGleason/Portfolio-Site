@@ -1,10 +1,10 @@
 import React,{useEffect} from 'react';
-import githubLogo from '../assets/github.svg';
-import linkedinLogo from '../assets/linkedin.svg';
-import mailImg from '../assets/mail.svg';
-import resumeImg from '../assets/resume.svg';
-import resumePDF from '../assets/resume.pdf';
-import '../styles/contact-buttons.css';
+import githubLogo from '../../assets/icons/github.svg';
+import linkedinLogo from '../../assets/icons/linkedin.svg';
+import mailImg from '../../assets/icons/mail.svg';
+import resumeImg from '../../assets/icons/resume.svg';
+import resumePDF from '../../assets/resume.pdf';
+import './ContactButtons.css';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 
@@ -14,14 +14,14 @@ export default function ContactButtons() {
   },[])
 
   return (
-    <ul data-aos='fade-in' className='contact-buttons'>
+    <ol data-aos='fade-in' className='contact-buttons'>
       <li>
-        <a href='https://www.github.com/antinf'>
+        <a href='https://www.github.com/anthonygleason'>
           <img className='expand' src={githubLogo} alt='github logo' />
         </a>
       </li>
       <li>
-        <a href='https://www.linkedin.com/in/anthony-infortunio'>
+        <a href='https://www.linkedin.com/in/antgleason'>
           <img className='expand' src={linkedinLogo} alt='linkedin logo' />
         </a>
       </li>
@@ -35,6 +35,6 @@ export default function ContactButtons() {
           <img className='expand' src={resumeImg} alt='white paper' />
         </a>
       </li>
-    </ul>
+    </ol>
   );
 }

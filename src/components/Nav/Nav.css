@@ -1,0 +1,25 @@
+.nav{
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  font-size: 20px;
+  font-weight: 550;
+}
+.nav ol{
+  display: flex;
+  width: 100%;
+  max-width: 500px;
+  gap: 5px;
+}
+.nav ol li{
+  text-align: center;
+  min-width: 50px;
+  flex-grow: 1;
+  display: flex;
+}
+.nav ol li a{
+  text-decoration: none;
+  cursor: pointer;
+  flex-grow: 1;
+  color: var(--color-e)
+}

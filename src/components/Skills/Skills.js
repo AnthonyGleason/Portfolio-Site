@@ -1,19 +1,19 @@
 import React,{useEffect} from 'react';
-import '../styles/skills.css';
+import './Skills.css';
 //import images
-import cssIMG from '../assets/skills/css.svg';
-import expressIMG from '../assets/skills/express.svg';
-import firebaseIMG from '../assets/skills/firebase.svg';
-import gitIMG from '../assets/skills/git.svg';
-import herokuIMG from '../assets/skills/heroku.svg';
-import htmlIMG from '../assets/skills/html.svg';
-import javascriptIMG from '../assets/skills/javascript.svg';
-import jestIMG from '../assets/skills/jest.svg';
-import linuxIMG from '../assets/skills/linux.svg';
-import mongodbIMG from '../assets/skills/mongodb.svg';
-import nodeIMG from '../assets/skills/node.svg';
-import reactIMG from '../assets/skills/react.svg';
-import typescriptIMG from '../assets/skills/typescript.svg';
+import cssIMG from '../../assets/skills/css.svg';
+import expressIMG from '../../assets/skills/express.svg';
+import firebaseIMG from '../../assets/skills/firebase.svg';
+import gitIMG from '../../assets/skills/git.svg';
+import herokuIMG from '../../assets/skills/heroku.svg';
+import htmlIMG from '../../assets/skills/html.svg';
+import javascriptIMG from '../../assets/skills/javascript.svg';
+import jestIMG from '../../assets/skills/jest.svg';
+import linuxIMG from '../../assets/skills/linux.svg';
+import mongodbIMG from '../../assets/skills/mongodb.svg';
+import nodeIMG from '../../assets/skills/node.svg';
+import reactIMG from '../../assets/skills/react.svg';
+import typescriptIMG from '../../assets/skills/typescript.svg';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 

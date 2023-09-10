@@ -1,9 +1,9 @@
 import React from 'react';
-import '../styles/app.css';
-import About from './About';
-import Intro from './Intro';
-import Projects from './Projects';
-import Skills from './Skills';
+import './App.css';
+import About from '../About/About';
+import Intro from '../Intro/Intro';
+import Projects from '../Projects/Projects';
+import Skills from '../Skills/Skills';
 
 
 export default function App(){

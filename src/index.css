@@ -5,6 +5,7 @@ html{
 #root{
   display: flex;
   flex-direction: column;
+  background-color: var(--color-b)
 }
 body {
   margin: 0;
@@ -52,5 +53,5 @@ code {
   transition: 0.5s;
 }
 .expand:hover{
-  transform: scale(1.05);
+  transform: scale(1.2);
 }
