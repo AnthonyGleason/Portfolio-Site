@@ -3,6 +3,10 @@
   display: flex;
   justify-content: center;
   min-height: 100vh;
+  font-size: 22px;
+}
+.about-title{
+  font-size: 25px;
 }
 .about-content{
   display: flex;
@@ -11,7 +15,7 @@
   color: var(--color-e);
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
   max-width: 900px;
 }
 .about-title{

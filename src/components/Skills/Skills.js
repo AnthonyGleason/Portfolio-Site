@@ -24,7 +24,7 @@ export default function Skills(){
   return (
     <section className='skills' id='skills'>
       <h1 data-aos='fade-right' className='skills-title'>My Skills</h1>
-      <ul className='skills-container'>
+      <ol className='skills-container'>
         <li data-aos='fade-right' className='expand'><img src={htmlIMG} alt='HTML5 logo'/>HTML5</li>
         <li data-aos='fade-right' className='expand'><img src={cssIMG} alt='CSS logo'/>CSS</li>
         <li data-aos='fade-right' className='expand'><img src={javascriptIMG} alt='JavaScript logo'/>JavaScript</li>
@@ -38,7 +38,7 @@ export default function Skills(){
         <li data-aos='fade-right' className='expand'><img src={linuxIMG} alt='Linux logo'/>Linux</li>
         <li data-aos='fade-right' className='expand'><img src={jestIMG} alt='Jest logo'/>Jest</li>
         <li data-aos='fade-right' className='expand'><img src={gitIMG} alt='Git logo'/>Git</li>
-      </ul>
+      </ol>
     </section>
   );  
 }
