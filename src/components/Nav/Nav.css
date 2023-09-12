@@ -21,5 +21,9 @@
   text-decoration: none;
   cursor: pointer;
   flex-grow: 1;
-  color: var(--color-e)
+  color: var(--color-e);
+  transition: color 0.5s ease-in-out;
+}
+.nav ol li a:hover{
+  color: var(--color-c);
 }

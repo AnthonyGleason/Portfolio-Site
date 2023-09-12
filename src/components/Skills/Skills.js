@@ -25,19 +25,19 @@ export default function Skills(){
     <section className='skills' id='skills'>
       <h1 data-aos='fade-right' className='skills-title'>My Skills</h1>
       <ol className='skills-container'>
-        <li data-aos='fade-right' className='expand'><img src={htmlIMG} alt='HTML5 logo'/>HTML5</li>
-        <li data-aos='fade-right' className='expand'><img src={cssIMG} alt='CSS logo'/>CSS</li>
-        <li data-aos='fade-right' className='expand'><img src={javascriptIMG} alt='JavaScript logo'/>JavaScript</li>
-        <li data-aos='fade-right' className='expand'><img src={typescriptIMG} alt='TypeScript logo'/>TypeScript</li>
-        <li data-aos='fade-right' className='expand'><img src={reactIMG} alt='React logo'/>React.js</li>
-        <li data-aos='fade-right' className='expand'><img src={nodeIMG} alt='Node.js logo'/>Node.js</li>
-        <li data-aos='fade-right' className='expand'><img src={expressIMG} alt='Express logo'/>Express</li>
-        <li data-aos='fade-right' className='expand'><img src={mongodbIMG} alt='MongoDB logo'/>MongoDB</li>
-        <li data-aos='fade-right' className='expand'><img src={herokuIMG} alt='Heroku logo'/>Heroku</li>
-        <li data-aos='fade-right' className='expand'><img src={firebaseIMG} alt='Firebase logo'/>Firebase</li>
-        <li data-aos='fade-right' className='expand'><img src={linuxIMG} alt='Linux logo'/>Linux</li>
-        <li data-aos='fade-right' className='expand'><img src={jestIMG} alt='Jest logo'/>Jest</li>
-        <li data-aos='fade-right' className='expand'><img src={gitIMG} alt='Git logo'/>Git</li>
+        <li data-aos='fade-right'><img className='expand' src={htmlIMG} alt='HTML5 logo'/>HTML5</li>
+        <li data-aos='fade-right'><img className='expand' src={cssIMG} alt='CSS logo'/>CSS</li>
+        <li data-aos='fade-right'><img className='expand' src={javascriptIMG} alt='JavaScript logo'/>JavaScript</li>
+        <li data-aos='fade-right'><img className='expand' src={typescriptIMG} alt='TypeScript logo'/>TypeScript</li>
+        <li data-aos='fade-right'><img className='expand' src={reactIMG} alt='React logo'/>React.js</li>
+        <li data-aos='fade-right'><img className='expand' src={nodeIMG} alt='Node.js logo'/>Node.js</li>
+        <li data-aos='fade-right'><img className='expand' src={expressIMG} alt='Express logo'/>Express</li>
+        <li data-aos='fade-right'><img className='expand' src={mongodbIMG} alt='MongoDB logo'/>MongoDB</li>
+        <li data-aos='fade-right'><img className='expand' src={herokuIMG} alt='Heroku logo'/>Heroku</li>
+        <li data-aos='fade-right'><img className='expand' src={firebaseIMG} alt='Firebase logo'/>Firebase</li>
+        <li data-aos='fade-right'><img className='expand' src={linuxIMG} alt='Linux logo'/>Linux</li>
+        <li data-aos='fade-right'><img className='expand' src={jestIMG} alt='Jest logo'/>Jest</li>
+        <li data-aos='fade-right'><img className='expand' src={gitIMG} alt='Git logo'/>Git</li>
       </ol>
     </section>
   );  
