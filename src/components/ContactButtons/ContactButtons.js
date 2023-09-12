@@ -3,7 +3,7 @@ import githubLogo from '../../assets/icons/github.svg';
 import linkedinLogo from '../../assets/icons/linkedin.svg';
 import mailImg from '../../assets/icons/mail.svg';
 import resumeImg from '../../assets/icons/resume.svg';
-import resumePDF from '../../assets/resume.pdf';
+import resumePDF from '../../assets/Anthony-Gleason-Resume.pdf';
 import './ContactButtons.css';
 import Aos from 'aos';
 import "aos/dist/aos.css";
