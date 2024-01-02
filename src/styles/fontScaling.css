@@ -1,0 +1,55 @@
+@media screen and (min-width: 700px) {
+  .intro h1{
+    font-size: 2.85em; 
+  }
+
+  .intro h2,
+  .project-info-container h2{
+    font-size: 2.2em;
+  }
+
+  .nav-open li a{
+    font-size: 2.3em;
+  }
+  .project-item .project-info-container a{
+    font-size: 1.7em;
+  }
+  .about{
+    font-size: 1.7em;
+  }
+  
+  .footer p{
+    font-size: 2.3em;
+  }
+  
+  .project-item .project-info-container p{
+    font-size: 1.5em;
+  }
+  
+  .footer .mail{
+    font-size: 1em;
+  }
+
+  .skills .skills-container li{
+    font-size: 2em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .intro h1{
+    font-size: 3.5em;
+  }
+
+  .intro h2{
+    font-size: 2.7em;
+  }
+
+  .nav-open li a {
+    font-size: 2em;
+  }
+
+  .about,
+  .skills .skills-container li{
+    font-size: 2.1em;
+  }
+}

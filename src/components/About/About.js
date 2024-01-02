@@ -1,23 +1,19 @@
-import React,{useEffect} from 'react';
+import React, { useState } from 'react';
 import './About.css';
-import Aos from 'aos';
-import "aos/dist/aos.css";
 
-export default function About(){
-  useEffect(()=>{
-    Aos.init({duration: 1500});
-  },[]);
-
-  return(
-    <section className='about' id='about'>
-      <div className='about-content'>
-        <h1 data-aos='fade-right' className='about-title'>About Me</h1>
-        <p data-aos='fade-right' className='about-text'>
-          "Hello! I'm Anthony, a Full Stack Developer. I am <em className='em'>passionate</em> about building high-quality web applications that <em className='em'>provide memorable user experiences</em>.
-            I am always <em className='em'>eager to learn</em> new skills and expand my knowledge. If you're interested in 
-            collaborating on a project or just want to chat about programming, feel free to reach out!"
+export default function About() {
+  return (
+    <section
+      id='about'
+      className='about'
+    >
+      <article className='about-content'>
+        <p className='about-text'>
+          Hey, I'm Anthony, a Full Stack Developer on a mission to bring your digital dreams to life. No buzzwords, just{' '}
+          <em className='em'>clean code</em> and <em className='em'>killer web applications</em>. I'm all about making 
+          unique and memorable user experiences. 
         </p>
-      </div>
+      </article>
     </section>
-  )
+  );
 }

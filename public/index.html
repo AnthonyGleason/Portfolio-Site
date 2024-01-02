@@ -25,6 +25,18 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Anthony Gleason Official Website</title>
+    <!-- only preload the menu img if the user is on mobile -->
+    <script>
+      if (window.innerWidth <= 768) {
+        var link = document.createElement("link");
+        link.rel = "preload";
+        link.href = "./assets/menu.svg";
+        link.as = "image";
+        link.type = "image/svg+xml";
+        document.head.appendChild(link);
+      }
+    </script>
+    <link rel="preload" href="./styles/fonts.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

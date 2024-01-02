@@ -1,29 +1,113 @@
-.nav{
-  display: flex;
-  justify-content: center;
-  padding: 1em;
-  font-size: 22px;
-  font-weight: 550;
+.nav-closed{
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 4;
 }
-.nav ol{
+.nav-closed button{
+  background-color: transparent;
+  border: 0px solid transparent;
+  margin: 10px;
+}
+.nav-closed button img{
+  width: 50px;
+}
+.nav-open{
+  position: fixed;
+  background-color: var(--color-d);
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  z-index: 5;
+}
+.nav-open button{
+  align-self: flex-end;
+  margin: 10px;
+  background-color: transparent;
+  border: 0px solid transparent;
+}
+.nav-open button img{
+  width: 50px;
+}
+.nav-open ol{
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.nav-open li a{
+  color: var(--color-e);
+  text-underline-offset: 7px;
+}
+
+.nav-open .contact-buttons{
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+}
+.nav-open .contact-buttons img{
+  width: 50px;
+}
+.nav-content-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 2em;
+}
+.nav-open li a {
+  font-size: 5.5vw;
+}
+
+/* desktop */
+.nav-desktop{
   display: flex;
   width: 100%;
-  max-width: 500px;
-  gap: 5px;
+  position: sticky;
+  top: 0;
+  background-color: #1a1919;
+  max-height: 100vh;
+  max-width: max-content;
+  font-size: 24px;
 }
-.nav ol li{
-  text-align: center;
-  min-width: 50px;
-  flex-grow: 1;
+.nav-desktop ol{
+  list-style-type: none;
   display: flex;
+  padding: 1em;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  flex-direction: column;
+  gap: 50px;
 }
-.nav ol li a{
-  text-decoration: none;
-  cursor: pointer;
-  flex-grow: 1;
-  color: var(--color-e);
-  transition: color 0.5s ease-in-out;
+.nav-desktop ol li{
+  text-align: center;
 }
-.nav ol li a:hover{
-  color: var(--color-c);
+.nav-desktop ol li a{
+  color: white;
+  text-underline-offset: 10px;
+}
+
+.nav-desktop .nav-intro,
+.nav-content-wrapper .nav-intro{
+  color: #f92672;
+}
+.nav-desktop .nav-about,
+.nav-content-wrapper .nav-about{
+  color: #a6e22e;
+}
+.nav-desktop .nav-projects,
+.nav-content-wrapper .nav-projects{
+  color: #e6db74;
+}
+.nav-desktop .nav-skills,
+.nav-content-wrapper .nav-skills{
+  color: #66d9ef;
+}
+.nav-desktop .nav-contact,
+.nav-content-wrapper .nav-contact{
+  color: #fd971f;
 }

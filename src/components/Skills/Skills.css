@@ -14,20 +14,20 @@
   list-style-type: none;
   justify-content: center;
   width: 100%;
-  gap: 10px;
+  gap: 1.5em;
   row-gap: 20px;
   max-width: 1200px;
 }
 .skills-container li{
-  font-size: 18px;
+  font-size: 4.5vw;
   display: grid;
   justify-items: center;
   align-items: center;
   grid-template-rows: 1fr 0.1fr;
   min-height: 50px;
   gap: 10px;
+  text-wrap: wrap;
 }
 .skills-container li img{
   width: 70px;
-  max-width: 100px;
 }

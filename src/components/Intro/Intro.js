@@ -1,21 +1,47 @@
-import React, {useEffect} from 'react';
+import React, {useEffect,useRef,useState} from 'react';
 import './Intro.css';
-import me from '../../assets/me.jpg';
-import Aos from 'aos';
-import "aos/dist/aos.css";
+import { handleTypewriterEffect } from '../../helpers/helpers';
 
 export default function Intro(){
+  const emStrArr = [
+    'Intuitive Web Designs.',
+    'Responsive Web Designs.',
+    'Accessible Web Designs.'
+  ];
+  const [currentEmStrState,setCurrentEmStrState] = useState('');
+  const isInitialLoad = useRef(true);
+  const isDeleting = useRef(false); // determines if the currentEm text is being deleted in the typewriter effect
+  const currentEmArrIndex = useRef(0); // initialize the currentEmArr as empty so the effect starts from an empty text block
+  const currentEmStr = useRef(''); // we are using BOTH the state and this due to issues with updating state and setInterval. Sending the prevState to the getNextEmStr() causes the direction to change 1 character early.
+
+  // ensuring the interval is only called once by using a ref
   useEffect(()=>{
-    Aos.init({duration: 2000});
-  },[])
+    if (isInitialLoad.current===false) return;
+    //immediately set isInitialLoad to false so react strict rendering doesnt call this twice
+    isInitialLoad.current=false;
+    handleTypewriterEffect(
+      setCurrentEmStrState,
+      isDeleting,
+      currentEmArrIndex,
+      currentEmStr,
+      emStrArr
+    );
+  },[]);
+
   return(
     <section className='intro' id='intro'>
       <div className='intro-content'>
-        <img data-aos='fade-in' src={me} className='intro-img' alt='me' />
-        <header data-aos='fade-in' className='intro-heading-wrapper'>
-          <h1 className='name'>Anthony Gleason</h1>
-          <h3 className='title intro-title'>Full Stack Developer</h3>
-        </header>
+        {/* <img loading='lazy' decoding='async' data-aos='fade-in' src={me} className='intro-img' alt='me' /> */}
+        <h1 className='name'>
+          Anthony Gleason
+          <br />
+          Full Stack Developer
+        </h1>
+        <h2>
+          Elevating Your Ideas Into
+          <br />
+          <em className='em'>{currentEmStrState}</em>|
+        </h2>
       </div>
     </section>
   )

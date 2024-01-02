@@ -1,7 +1,7 @@
 import React from 'react';
-import newsWeekImg from '../../assets/projects/newsWeek.png';
-import wmpImg from '../../assets/projects/wheresMyPackage.png';
-import passNinjaImg from '../../assets/projects/passNinja.png';
+import newsWeekImg from '../../assets/projects/newsWeek.webp';
+import wmpImg from '../../assets/projects/wheresMyPackage.webp';
+import passNinjaImg from '../../assets/projects/passNinja.webp';
 import './Projects.css';
 
 export default function Projects() {
@@ -12,6 +12,7 @@ export default function Projects() {
       url: 'https://anthonygleason.github.io/Pass-Ninja/',
       codeUrl: 'https://github.com/anthonygleason/Pass-Ninja',
       imgUrl: passNinjaImg,
+      techStack: 'React, Typescript, Node.js, Express, Heroku, MongoDB'
     },
     {
       name: "Where's My Package?",
@@ -19,6 +20,7 @@ export default function Projects() {
       url: 'https://anthonygleason.github.io/Wheres-My-Package/',
       codeUrl: 'https://github.com/anthonygleason/Wheres-My-Package',
       imgUrl: wmpImg,
+      techStack: 'React, Typescript, Node.js, Express, Heroku'
     },
     {
       name: 'Newsweek Layout Clone',
@@ -26,25 +28,37 @@ export default function Projects() {
       url:'https://anthonygleason.github.io/Newsweek-Layout-Clone/',
       codeUrl: 'https://github.com/anthonygleason/Newsweek-Layout-Clone',
       imgUrl: newsWeekImg,
+      techStack: 'React, Javascript'
     },
   ];
 
   return (
-    <section className='projects' id='projects'>
-      <h1 data-aos='fade-right' className='projects-title'>My Projects</h1>
+    <section 
+      className='projects' 
+      id='projects'
+    >
+      {/* <h1 className='projects-title'>My Projects</h1> */}
       <ol className='projects-container'>
         {
           projectData.map((project, index) => (
             <li
-              data-aos="fade-right"
-              className='project-item expand'
+              className='project-item'
               key={index}
-              onClick={() => {window.location.href = project.url}}
             > 
-              <img src={project.imgUrl} alt={project.name} />
-              <div className='project-info-container'>
-                <p className='project-name'>{project.name}</p>
-                <p className='project-desc'>{project.desc}</p>
+              <img 
+                loading='lazy' 
+                decoding='async' 
+                src={project.imgUrl} 
+                alt={project.name}
+              />
+              <article className='project-info-container'>
+                <h2 className='project-name'>{project.name}</h2>
+                <p className='project-desc'>
+                  {project.desc}
+                </p>
+                <p className='project-tech-stack'>
+                  Tech Stack: {project.techStack}
+                </p>
                 <ol>
                   <li>
                     <a className='project-url' href={project.url}>Live Demo</a>
@@ -53,20 +67,19 @@ export default function Projects() {
                     <a className='project-code-url' href={project.codeUrl}>View Source Code</a>
                   </li>
                 </ol>
-              </div>       
+              </article>       
             </li>
           ))
         }
       </ol>
-      <button
-        data-aos='fade-right'
+      {/* <button
         className='view-more'
         onClick={() => {
           window.location.href = 'https://github.com/anthonygleason?tab=repositories';
         }}
       >
         View More Projects
-      </button>
+      </button> */}
     </section>
   );
 }

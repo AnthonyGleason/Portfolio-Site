@@ -2,20 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './components/App/App';
-import Nav from './components/Nav/Nav';
-import Footer from './components/Footer/Footer';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import './styles/fontScaling.css';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
-    <Nav />
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<App />}/>
+        <Route path='/' element={<App />} />
       </Routes>
     </BrowserRouter>
-    <Footer />
   </React.StrictMode>
 );
 

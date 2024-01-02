@@ -1,19 +1,29 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import './App.css';
 import About from '../About/About';
 import Intro from '../Intro/Intro';
-import Projects from '../Projects/Projects';
-import Skills from '../Skills/Skills';
+import Footer from '../Footer/Footer';
+import Nav from '../Nav/Nav';
 
+const Projects = React.lazy(() => import('../Projects/Projects'));
+const Skills = React.lazy(() => import('../Skills/Skills'));
 
 export default function App(){
   
   return(
     <main className='App'>
-      <Intro />
-      <About />
-      <Projects />
-      <Skills />
+      <div className='app-home-wrapper'>
+        <Nav />
+        <div className='app-content-container'>
+          <Intro />
+          <About />
+          <Suspense>
+            <Projects />
+            <Skills />
+          </Suspense>
+        </div>
+      </div>
+      <Footer />
     </main>
   )
 }

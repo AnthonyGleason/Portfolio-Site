@@ -1,15 +1,13 @@
 .projects{
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 20px;
-  padding: 1em;
   width: 100%;
+  padding-bottom: 4em;
 }
 
-.project-info-container .project-name,
 .project-info-container .project-desc,
 .project-info-container ol li a{
   font-size: 20px;
@@ -18,9 +16,11 @@
   color: var(--color-e);
   font-size: 25px;
 }
-.projects-container li{
-  background-color: var(--color-d);
+.projects-container > li{
   color: var(--color-e);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .projects-container{
   list-style-type: none;
@@ -28,36 +28,48 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  max-width: 2000px;
+  gap: 100px;
 }
 .project-info-container{
-  padding: 1em;
+  padding:2em;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
+  height: max-content;
+  letter-spacing: 1px;
 }
 .project-info-container ol{
   list-style-type: none;
   display: flex;
-  flex-direction: column;
-  gap: 10px;
+  gap: 40px;
+}
+.project-info-container ol li{
+  text-align: center;
+}
+.projects ol li:first-child img{
+  object-position: 82%;
 }
 .project-info-container ol li a{
   text-decoration: none;
   cursor: pointer;
   text-decoration: underline;
+  text-underline-offset: 7px;
+  line-height: 1.5;
+  font-style: italic;
 }
 .project-info-container ol li a,
 .view-more{
   color: var(--color-e);
   transition: color 0.5s ease-in-out;
 }
-.project-info-container ol li a:hover{
-  color: var(--color-b);
-}
 .projects ol li img{
   width: 100%;
+  min-height: 100vh;
+  /* box-shadow: 0 5px 10px rgba(111, 114, 129,.05), 0 15px 40px rgba(111, 114, 129, 0.2); */
+  z-index: 2;
+  position: relative;
+  object-fit: cover;
+  object-position: left center;
 } 
 .project-item{
   min-height: 100px;
@@ -65,11 +77,20 @@
 }
 .project-name{
   font-weight: 550;
+  font-size: 25px;
+}
+.project-desc{
+  color: var(--color-c);
 }
 .view-more{
-  background-color: transparent;
+  background-color: var(--color-d);
   border: 0px solid transparent;
-  text-decoration: underline;
-  font-size: 20px;
+  font-size: 22px;
   cursor: pointer;
+  padding: 1em;
+  letter-spacing: 1px;
+}
+.project-tech-stack{
+  color: var(--color-e);
+  font-size: 20px;
 }
