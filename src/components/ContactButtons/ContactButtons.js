@@ -11,7 +11,7 @@ export default function ContactButtons() {
   return (
     <ol className='contact-buttons'>
       <li>
-        <a href='https://www.github.com/anthonygleason'>
+        <a href='https://www.github.com/AnthonyGleason'>
           <img loading='lazy' decoding='async' className='expand' src={githubLogo} alt='github logo' />
         </a>
       </li>
