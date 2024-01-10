@@ -14,7 +14,7 @@ export default function Projects() {
       url: 'https://nybagelsclub.com',
       codeUrl: 'https://github.com/AnthonyGleason/NY-Bagels-Club-Client',
       imgUrl: nybcImg,
-      techStack: 'React, Typescript, Node.js, Express, Heroku, MongoDB, Framer Motion, Screaming Frog, Firebase, Stripe'
+      techStack: 'React, Typescript, Node.js, Express, Heroku, MongoDB, Framer Motion, Firebase, Stripe, Screaming Frog'
     },
     {
       name: "Where's My Package?",

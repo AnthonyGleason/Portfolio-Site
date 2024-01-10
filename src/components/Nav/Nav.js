@@ -17,7 +17,7 @@ export default function Nav() {
     return () => window.removeEventListener('resize', handleResize);
   }, [viewportWidth]);
 
-  if (viewportWidth>768){
+  if (viewportWidth>=768){
     return(
       <nav className='nav-desktop'>
         <ol>

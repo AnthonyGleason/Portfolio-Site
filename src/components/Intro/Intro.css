@@ -4,34 +4,62 @@
   justify-content: center;
   align-items: center;
   min-height: 90vh;
+  text-align: center;
 }
-.intro-content{
+@media screen and (width>=768px){
+  .intro-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "me name"
+    "me typing";
+    column-gap: 20px;
+    row-gap: 10px;
+  }
+  .intro-content h1{
+    align-self: flex-end;
+  }
+  .intro-content img{
+    grid-area: me;
+    align-self: center;
+    width: 100%;
+    max-width: 400px;
+  }
 }
-.intro-content h1,h2{
+@media screen and (width<768px){
+  .intro-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .intro img{
+    align-self: center;
+    max-width: 350px;
+  }
 }
+
 .intro h1{
   color: var(--color-e);
   font-weight: 400;
   letter-spacing: 1px;
 }
 .intro img{
-  max-width: 300px;
-  width: 90%;
-  justify-self: end;
-  margin: 10px;
+  width: 100%;
   border-radius: 18px;
+  box-shadow: 0 5px 10px rgba(37, 39, 44, 0.05), 0 15px 40px rgba(37, 39, 44,.2);
 }
 .intro h2{
   color: var(--color-c);
   font-weight: 500;
   letter-spacing: 1px;
-  margin-top: 20px
 }
 
 .intro h1 {
-  font-size: 7vw;
+  font-size: 5vw;
 }
 
 .intro h2 {
-  font-size: 5.2vw;
+  font-size: 4.3vw;
 }
