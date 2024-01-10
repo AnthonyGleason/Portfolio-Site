@@ -46,7 +46,13 @@
 .project-info-container ol li{
   text-align: center;
 }
+
+/* position nybc img for mobile */
 .projects ol li:first-child img{
+  object-position: center;
+}
+/* position pass ninja img for mobile */
+.projects ol li:nth-child(3) img{
   object-position: 82%;
 }
 .project-info-container ol li a{

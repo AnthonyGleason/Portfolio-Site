@@ -2,17 +2,19 @@ import React from 'react';
 import newsWeekImg from '../../assets/projects/newsWeek.webp';
 import wmpImg from '../../assets/projects/wheresMyPackage.webp';
 import passNinjaImg from '../../assets/projects/passNinja.webp';
+import nybcImg from '../../assets/projects/ny-bagels-club.webp';
+
 import './Projects.css';
 
 export default function Projects() {
   const projectData = [
     {
-      name: "Pass Ninja",
-      desc: "Take charge of your online security with Pass Ninja, the open-source password manager that assists you in safeguarding and managing your digital identity.",
-      url: 'https://anthonygleason.github.io/Pass-Ninja/',
-      codeUrl: 'https://github.com/anthonygleason/Pass-Ninja',
-      imgUrl: passNinjaImg,
-      techStack: 'React, Typescript, Node.js, Express, Heroku, MongoDB'
+      name: "New York Bagels Club",
+      desc: "Introducing New York Bagels Club, an e-commerce site with the goal of being your go-to spot for home deliveries of New York Bagels! New York Bagels Club features modern web design technologies and practices guaranteeing a smooth and enjoyable shopping experience.",
+      url: 'https://nybagelsclub.com',
+      codeUrl: 'https://github.com/AnthonyGleason/NY-Bagels-Club-Client',
+      imgUrl: nybcImg,
+      techStack: 'React, Typescript, Node.js, Express, Heroku, MongoDB, Framer Motion, Screaming Frog, Firebase, Stripe'
     },
     {
       name: "Where's My Package?",
@@ -21,6 +23,14 @@ export default function Projects() {
       codeUrl: 'https://github.com/anthonygleason/Wheres-My-Package',
       imgUrl: wmpImg,
       techStack: 'React, Typescript, Node.js, Express, Heroku'
+    },
+    {
+      name: "Pass Ninja",
+      desc: "Take charge of your online security with Pass Ninja, the open-source password manager that assists you in safeguarding and managing your digital identity.",
+      url: 'https://anthonygleason.github.io/Pass-Ninja/',
+      codeUrl: 'https://github.com/anthonygleason/Pass-Ninja',
+      imgUrl: passNinjaImg,
+      techStack: 'React, Typescript, Node.js, Express, Heroku, MongoDB'
     },
     {
       name: 'Newsweek Layout Clone',
