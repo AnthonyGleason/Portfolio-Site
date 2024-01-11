@@ -2,7 +2,7 @@ import React from 'react';
 import newsWeekImg from '../../assets/projects/newsWeek.webp';
 import wmpImg from '../../assets/projects/wheresMyPackage.webp';
 import passNinjaImg from '../../assets/projects/passNinja.webp';
-import nybcImg from '../../assets/projects/ny-bagels-club.webp';
+import nybcImg from '../../assets/projects/nybc.webp';
 
 import './Projects.css';
 
@@ -11,7 +11,7 @@ export default function Projects() {
     {
       name: "New York Bagels Club",
       desc: "Introducing New York Bagels Club, an e-commerce site with the goal of being your go-to spot for home deliveries of New York Bagels! New York Bagels Club features modern web design technologies and practices guaranteeing a smooth and enjoyable shopping experience.",
-      url: 'https://nybagelsclub.com',
+      url: 'https://anthonygleason.github.io/NY-Bagels-Club-Client',
       codeUrl: 'https://github.com/AnthonyGleason/NY-Bagels-Club-Client',
       imgUrl: nybcImg,
       techStack: 'React, Typescript, Node.js, Express, Heroku, MongoDB, Framer Motion, Firebase, Stripe, Screaming Frog'

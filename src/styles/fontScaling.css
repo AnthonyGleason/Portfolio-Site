@@ -62,9 +62,17 @@
 }
 @media screen and (min-width:1200px){
   .intro-content h1{
-    font-size: 30px;
+    font-size: 33px;
   }
   .intro-content h2{
     font-size: 25px;
+  }
+}
+@media screen and (min-width:1500px){
+  .intro-content h1{
+    font-size: 45px;
+  }
+  .intro-content h2{
+    font-size: 35px;
   }
 }
