@@ -3,7 +3,7 @@ import githubLogo from '../../assets/icons/github.svg';
 import linkedinLogo from '../../assets/icons/linkedin.svg';
 import mailImg from '../../assets/icons/mail.svg';
 import resumeImg from '../../assets/icons/resume.svg';
-import resumePDF from '../../assets/Anthony-Gleason-Resume.pdf';
+import resumePDF from '../../assets/Anthony-Infortunio-Resume.pdf';
 import './ContactButtons.css';
 
 export default function ContactButtons() {
@@ -21,7 +21,7 @@ export default function ContactButtons() {
         </a>
       </li>
       <li>
-        <a href='mailto:contact@anthonyinfortun.io'>
+        <a href='mailto:contact@anthonygleason.com'>
           <img loading='lazy' decoding='async' className='expand' src={mailImg} alt='mailing envelope' />
         </a>
       </li>

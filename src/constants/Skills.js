@@ -19,7 +19,7 @@ export const skillsArr = [
   {
     src: htmlIMG,
     alt: 'HTML5 logo',
-    name: 'HTML 5',
+    name: 'HTML',
   },
   {
     src: cssIMG,
@@ -49,7 +49,7 @@ export const skillsArr = [
   {
     src: expressIMG,
     alt: 'Express logo',
-    name: 'Express',
+    name: 'Express.js',
   },
   {
     src: mongodbIMG,

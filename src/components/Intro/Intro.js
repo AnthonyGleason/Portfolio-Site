@@ -34,7 +34,7 @@ export default function Intro(){
       <div className='intro-content'>
         <img loading='lazy' decoding='async' data-aos='fade-in' src={croppedImg} className='intro-img' alt='me' />
         <h1 className='name'>
-          Anthony Gleason
+          Anthony Infortunio
           <br />
           Full Stack Developer
         </h1>
