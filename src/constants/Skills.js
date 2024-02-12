@@ -14,6 +14,7 @@ import typescriptIMG from '../assets/skills/typescript.svg';
 import framerMotionIMG from '../assets/skills/framer-motion.svg';
 import stripeIMG from '../assets/skills/stripe.svg';
 import screamingFrogIMG from '../assets/skills/screamingFrog.svg';
+import vmwareIMG from '../assets/skills/vmware.svg';
 
 export const skillsArr = [
   {
@@ -95,5 +96,10 @@ export const skillsArr = [
     src: screamingFrogIMG,
     alt: 'Screaming frog Seo tool logo',
     name: 'Screaming Frog'
+  },
+  {
+    src: vmwareIMG,
+    alt: 'VMware',
+    name: "VMware"
   }
 ];
