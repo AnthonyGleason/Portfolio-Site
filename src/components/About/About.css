@@ -1,5 +1,5 @@
 .about{
-  padding: 2em;
+  padding: 1.8em;
   display: flex;
   justify-content: center;
   min-height: 100vh;
@@ -19,6 +19,6 @@
 }
 .about-text{
   width: 100%;
-  max-width: 800px;
+  max-width: 850px;
   letter-spacing: 1px;
 }
