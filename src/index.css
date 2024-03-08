@@ -57,9 +57,9 @@ code {
 }
 .expand:hover{
   transform: scale(1.2);
+  cursor: pointer;
 }
 
-#root .about,
 #root .skills{
   padding-top: 4em;
   padding-bottom: 4em;
@@ -84,4 +84,5 @@ code {
 }
 #root a:hover{
   color:#b0fdc7;
+  cursor: pointer;
 }
