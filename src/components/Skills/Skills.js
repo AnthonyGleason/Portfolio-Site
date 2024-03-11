@@ -5,7 +5,7 @@ import { skillsArr } from '../../constants/Skills';
 const getSkilListItem = function(src, alt, name,key) {
   return (
     <li key={key}>
-      <img className='expand' src={src} alt={alt} />
+      <img decoding='async' loading='lazy' className='expand' src={src} alt={alt} />
       <span>{name}</span>
     </li>
   );
