@@ -1,6 +1,6 @@
 import React, {useEffect,useRef,useState} from 'react';
 import './Intro.css';
-import croppedImg from '../../assets/cropped.png';
+import croppedImg from '../../assets/cropped.webp';
 import { handleTypewriterEffect } from '../../helpers/helpers';
 
 export default function Intro(){
