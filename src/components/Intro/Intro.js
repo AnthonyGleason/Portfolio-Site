@@ -1,6 +1,5 @@
 import React, {useEffect,useRef,useState} from 'react';
 import './Intro.css';
-import croppedImg from '../../assets/cropped.webp';
 import { handleTypewriterEffect } from '../../helpers/helpers';
 
 export default function Intro(){
@@ -32,7 +31,8 @@ export default function Intro(){
   return(
     <section className='intro' id='intro'>
       <div className='intro-content'>
-        <img loading='lazy' decoding='async' data-aos='fade-in' src={croppedImg} className='intro-img' alt='me' />
+        {/* the below image is preloaded in public/index.html */}
+        <img decoding='async' data-aos='fade-in' src={'./assets/cropped.webp'} className='intro-img' alt='me' />
         <h1 className='name'>
           Anthony Infortunio
           <br />
