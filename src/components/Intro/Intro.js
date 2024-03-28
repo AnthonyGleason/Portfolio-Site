@@ -36,7 +36,7 @@ export default function Intro(){
         <h1 className='name'>
           Anthony Infortunio
           <br />
-          Full Stack Developer
+          Software Engineer
         </h1>
         <h2>
           Elevating Your Ideas Into

@@ -9,9 +9,7 @@ export default function About() {
     >
       <article className='about-content'>
         <p className='about-text'>
-          Hey, I'm Anthony, a Full Stack Developer on a mission to bring your digital dreams to life. No buzzwords, just{' '}
-          <em className='em'>clean code</em> and <em className='em'>high-quality web applications</em>. I'm all about making 
-          unique and memorable user experiences. 
+          Hello I'm Anthony, an experienced results-oriented software engineer on a mission to bring your digital dreams to life. I'm all about making unique and memorable user experiences. 
         </p>
       </article>
     </section>
