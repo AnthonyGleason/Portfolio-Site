@@ -14,7 +14,7 @@ export default function Projects() {
       url: 'https://anthonygleason.github.io/NY-Bagels-Club-Client',
       codeUrl: 'https://github.com/AnthonyGleason/NY-Bagels-Club-Client',
       imgUrl: nybcImg,
-      techStack: 'React, Typescript, Node.js, Express, Heroku, MongoDB, Framer Motion, Firebase, Stripe, Screaming Frog'
+      techStack: 'React, TypeScript, Node.js, Express, Heroku, MongoDB, Firebase, Stripe'
     },
     {
       name: "Where's My Package?",
@@ -22,7 +22,7 @@ export default function Projects() {
       url: 'https://anthonygleason.github.io/Wheres-My-Package/',
       codeUrl: 'https://github.com/anthonygleason/Wheres-My-Package',
       imgUrl: wmpImg,
-      techStack: 'React, Typescript, Node.js, Express, Heroku'
+      techStack: 'React, TypeScript, Node.js, Express, Heroku'
     },
     {
       name: "Pass Ninja",
@@ -30,7 +30,7 @@ export default function Projects() {
       url: 'https://anthonygleason.github.io/Pass-Ninja/',
       codeUrl: 'https://github.com/anthonygleason/Pass-Ninja',
       imgUrl: passNinjaImg,
-      techStack: 'React, Typescript, Node.js, Express, Heroku, MongoDB'
+      techStack: 'React, TypeScript, Node.js, Express, Heroku, MongoDB'
     },
     {
       name: 'Newsweek Layout Clone',
@@ -38,7 +38,7 @@ export default function Projects() {
       url:'https://anthonygleason.github.io/Newsweek-Layout-Clone/',
       codeUrl: 'https://github.com/anthonygleason/Newsweek-Layout-Clone',
       imgUrl: newsWeekImg,
-      techStack: 'React, Javascript'
+      techStack: 'React, JavaScript'
     },
   ];
 
